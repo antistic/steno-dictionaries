@@ -60,6 +60,15 @@ See the tests for more examples of valid and invalid combinations.
 - `-FLTZ`, `-R`, `-B`, `A`: add extra modifiers in between
 - `-PLTZ`, `SKWH-B`: the above but end with right hand symbols
 
+### [Raw](./raw.py)
+
+Writes out the raw steno stroke as if you had disabled all your dictionaries. Useful
+for doing [layout drills](https://joshuagrams.github.io/steno-jig/learn-keyboard.html).
+
+### [Next Stroke Raw](./next_stroke_raw.py)
+
+Write raw steno stroke on next stroke.
+
 ### [Symbols](./symbols.py)
 
 Symbols Dictionary
