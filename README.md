@@ -1,6 +1,21 @@
 # Plover dictionaries
 
-These are my dictionaries for Plover.
+## [Dictionaries](./)
+
+### [Symbols](./symbols.py)
+
+Symbols Dictionary
+
+**Adapted from**: https://github.com/EPLHREU/emily-symbols
+
+**Changes**:
+
+- different symbols
+- single, non-# starter
+- trailing spaces are explicitly added if attachment method is space
+- if you run this file directly it will print out any conflicts this file has with any
+  of your enabled json dictionaries
+
 
 ## [Scripts](./scripts)
 
