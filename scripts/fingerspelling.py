@@ -76,12 +76,11 @@ SPELLING = {
     "SWR": "z",  # easier on the hands
 }
 
-# #STKPWHRAO*-EUFRPBLTSDZ
-# ________                left
-#         __              vowels1
-#           __            separator
-#             __          vowels2
-#               _________ right
+# left:      #STKPWHR
+# vowel1:            AO
+# separator:           *-
+# vowel2:                EU
+# right:                   FRPBLTSDZ
 # letter: the letter as defined in SPELLING
 # https://docs.python.org/3/library/string.html#format-string-syntax
 VARIANTS = [
