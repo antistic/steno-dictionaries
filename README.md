@@ -2,6 +2,33 @@
 
 ## [Dictionaries](./)
 
+### [Keypad Numbers](./keypad_numbers.py)
+
+Numbers dictionary
+
+**Adapted from**: [/u/a589's alternative number system](https://www.reddit.com/r/Plover/comments/fgt6tp/list_of_alternative_number_systems/)
+
+**Usage**:
+
+Enter up to 3 digits at once
+
+- First digit: PWHR
+- Second digit: FRPB
+- Third digit: LGTS
+
+The corners are 1, 3, 7, 9.<br>
+Adjacent keys give you the ones in between.
+
+Any diagonal gives 0.<br>
+Any 3 with the top row gives 00.<br>
+Any 3 with the bottom row gives 000.
+
+Modifiers at the bottom of the file.
+
+**Changes**:
+
+- Modifiers
+
 ### [Symbols](./symbols.py)
 
 Symbols Dictionary
@@ -15,7 +42,6 @@ Symbols Dictionary
 - trailing spaces are explicitly added if attachment method is space
 - if you run this file directly it will print out any conflicts this file has with any
   of your enabled json dictionaries
-
 
 ## [Scripts](./scripts)
 
