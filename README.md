@@ -29,6 +29,37 @@ Modifiers at the bottom of the file.
 
 - Modifiers
 
+### [Modifiers Stack](./modifiers_stack.py)
+
+Modifiers dictionary which allows you to stack keys
+
+**Adapted from**: https://github.com/EPLHREU/emily-modifiers
+
+**Changes**:
+
+- different symbols
+- right hand symbols
+- keypad numbers
+- if you run this file directly it will print out any conflicts this file has with any
+  of your enabled json dictionaries
+- stacking!
+
+**Stacking**:
+
+You can write each part of the original stroke separately, for example if you are
+writing an uncommon key combination and would rather not arpeggiate, or if you want to
+use right hand symbols.
+
+**Examples**:
+
+See the tests for more examples of valid and invalid combinations.
+
+- `KPWRA*FRLTZ`: all together, like the original emily-modifiers
+- `-FLTZ`, `WHAO`: modifiers first, then the key
+- `-LTZ`, `-FP`, `SR`: starter, modifiers, key
+- `-FLTZ`, `-R`, `-B`, `A`: add extra modifiers in between
+- `-PLTZ`, `SKWH-B`: the above but end with right hand symbols
+
 ### [Symbols](./symbols.py)
 
 Symbols Dictionary
