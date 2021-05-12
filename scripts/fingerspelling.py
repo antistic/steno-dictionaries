@@ -94,7 +94,7 @@ VARIANTS = [
 if __name__ == "__main__":
     output = {}
     if SHOW_CONFLICTS:
-        from conflicts import prepare, print_conflicts
+        from conflicts import prepare, check_strokes_conflicts
 
         json_merged, python_lookups = prepare(ignore=[str(OUTPUT_FILE.resolve())])
 
@@ -120,16 +120,7 @@ if __name__ == "__main__":
             output[stroke] = translation.format(letter=letter)
 
         if SHOW_CONFLICTS:
-            for stroke in strokes:
-                conflicts = json_merged.get(stroke, [])
-                for lookup, name in python_lookups:
-                    try:
-                        result = (lookup(tuple(stroke.split("/"))), name)
-                        conflicts.append(result)
-                    except Exception:
-                        pass
-
-                print_conflicts(stroke, conflicts)
+            check_strokes_conflicts(json_merged, python_lookups, strokes)
 
     if OUTPUT_FILE:
         OUTPUT_FILE.write_text(json.dumps(output, indent=2))

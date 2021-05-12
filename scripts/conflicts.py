@@ -68,6 +68,19 @@ def print_conflicts(stroke, conflicts):
             print(f"  |-> '{c[0]}' in '{c[1]}'")
 
 
+def check_strokes_conflicts(json_merged, python_lookups, strokes):
+    for stroke in strokes:
+        conflicts = json_merged.get(stroke, [])
+        for lookup, name in python_lookups:
+            try:
+                result = (lookup(tuple(stroke.split("/"))), name)
+                conflicts.append(result)
+            except Exception:
+                pass
+
+        print_conflicts(stroke, conflicts)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Find conflicts in your Plover dictionaries"
