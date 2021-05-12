@@ -81,6 +81,27 @@ def check_strokes_conflicts(json_merged, python_lookups, strokes):
         print_conflicts(stroke, conflicts)
 
 
+def check_lookup_conflicts(json_merged, python_lookups, lookup):
+    for stroke, v in json_merged.items():
+        conflicts = v
+
+        try:
+            result = (lookup(tuple(stroke.split("/"))), __file__)
+            conflicts.append(result)
+
+            # other python dictionaries
+            for p_lookup, name in python_lookups:
+                try:
+                    result = (p_lookup(tuple(stroke.split("/"))), name)
+                    conflicts.append(result)
+                except Exception:
+                    pass
+
+            print_conflicts(stroke, conflicts)
+        except Exception:
+            pass
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Find conflicts in your Plover dictionaries"
