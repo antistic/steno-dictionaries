@@ -46,6 +46,12 @@ NUMBERS = {
 }
 
 
+def function(x):
+    if x == "0" or int(x) > 12:
+        raise KeyError
+    return f"{{#F{x}}}"
+
+
 def lookup(strokes):
     assert len(strokes) <= LONGEST_KEY
 
@@ -94,6 +100,7 @@ def lookup(strokes):
         0b000000000: lambda x: x,
         0b000001000: lambda x: "{^}" + x,  # A: Append
         0b000000001: lambda x: "-" + x,  # S: Minus
+        0b000000010: function,  # T: Function (like in modifiers, TP=F)
         0b000001001: lambda x: "{^}-" + x,  # SA: Append minus
         0b000000011: lambda x: x + "{}",  # ST: SeparaTe numbers
         0b000000111: lambda x: " ".join(x) + "{}",  # SD: Separate Digits
