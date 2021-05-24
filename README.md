@@ -119,7 +119,7 @@ The glue versions now exist under `*RBGS` and `*FPLT`.
 | keys    | translation    | description      | plover                     |
 | ------- | -------------- | ---------------- | -------------------------- |
 | `*`     | `{^}{>}x{^}`   | attach lowercase | `{>}{&x}`                  |
-| `*P`    | `{^}{-\|}x{^}` | attach uppercase | `{&X})`                    |
+| `*P`    | `{^}{-\|}x{^}` | attach uppercase | `{&X}`                     |
 | `*FPLT` | `{>}{&x}`      | glue lowercase   | `{&X.}` (inconsistently)   |
 | `*RBGS` | `{-\|}{&x}`    | glue uppercase   | `{>}{&x}` (inconsistently) |
 

@@ -12,7 +12,7 @@ Key:
     The glue versions now exist under *RBGS and *FPLT.
 
     *     - `{^}{>}x{^}`  attach lowercase (in Plover as `{>}{&x}`)
-    *P    - `{^}{-|}x{^}` attach uppercase (in Plover as `{&X})
+    *P    - `{^}{-|}x{^}` attach uppercase (in Plover as `{&X}`)
     *FPLT - `{>}{&x}`     glue lowercase (inconsistently in Plover as `{&X.}`)
     *RBGS - `{-|}{&x}`    glue uppercase (inconsistently in Plover as `{>}{&x}`)
 
