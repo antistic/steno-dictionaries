@@ -1,4 +1,4 @@
-# Drill Dictionary
+# Finger Drill Dictionary
 
 Requires [plover-literate-dictionary](https://github.com/antistic/plover-literate-dictionary) to use.
 
@@ -14,8 +14,8 @@ Keyboard"](https://joshuagrams.github.io/steno-jig/learn-keyboard.html) drills.
 Requires [plover-dictionary-commands](https://pypi.org/project/plover-dict-commands/).
 
 ```yaml
-TKR*L: {PLOVER:SOLO_DICT:+dictionaries/drill.md}  # DR*L  Drill
-STKR*L: {PLOVER:END_SOLO_DICT}                    # SDR*L Stop Drill
+TPR*D: {PLOVER:SOLO_DICT:+dictionaries/finger-drills.md}  # finger drill
+STPR*D: {PLOVER:END_SOLO_DICT}  # stop finger drill
 ```
 
 ## Steno Jig
