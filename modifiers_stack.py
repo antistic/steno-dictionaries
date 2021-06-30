@@ -24,6 +24,24 @@ Stacking:
         -PLTZ, SKWH-B: the above but end with right hand symbols
 
         See the tests for more examples of valid and invalid combinations.
+
+Usage:
+    It'll make more sense to read the original emily-modifiers first.
+        https://github.com/EPLHREU/emily-modifiers
+
+    pattern         STKPWHRAO EU
+    is number              AO
+    is symbol                *
+    symbol variant         AO
+    modifiers                   FRPB
+    ender                           LGTSDZ
+
+    right hand symbols:
+    starter         STKPWHR
+    symbol variant            EU
+    pattern                     FRPBLG
+
+
 """
 import re
 
