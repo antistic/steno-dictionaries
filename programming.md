@@ -1,6 +1,6 @@
 # Programming
 
- - Requires [plover-literate-dictionary](https://github.com/antistic/plover-literate-dictionary) to use.
+ - Requires [plover-markdown-dictionary](https://github.com/antistic/plover-markdown-dictionary) to use.
  - Find symbols at [symbols.py](./symbols.py), which is my fork of [Emily's Symbols](https://github.com/EPLHREU/emily-symbols).
  - If you use vim, the attachment [fingerspelling dictionary](./fingerspelling.json) ([script](./scripts/fingerspelling.py)) may be useful.
 
@@ -9,13 +9,14 @@ Theory:
  - File extensions are `P-P` followed by the letters in the extension, and are lowercase.
  - The names of languages have the lowercase variant (usually a command name) without a `*` and the brand name with a `*`. This is different to what's in the default Plover dictionary.
 
-## Common
+## General
 
 Words
 
 ```yaml
 AERG: arg # A*RG is argh
-RAE: array
+RAE: array # A/RAEU
+APB/SEU: ansi
 PWAOL: bool # exists
 KO*PBS: const
 K-FG: config # exists as KAUPB/TP*EUG
@@ -39,9 +40,46 @@ KPA*: {^}{-|} # exists
 KA*EPL: {MODE:CAMEL}  # as suggested in the wiki
 STPH*BG: {MODE:LOWER}{MODE:SNAKE}   # as suggested in the wiki
 R*EFT: {MODE:RESET}  # as suggested in the wiki
-SK-P: {#Escape}{MODE:RESET} # eSKaPe, with reset. good for vim
+SK-P: "{#Escape}{MODE:RESET}" # eSKaPe, with reset. good for vim
 S-P: {^ ^}{MODE:RESET}  # exists without reset. good for special modes on a single word
 P-P: {^.^}{>} # add lowercase to next word since I'm usually using this for domain names and file extensions
+```
+
+## Command Line
+
+ - Prefixed with `{>}` for lowercase.
+ - When possible, tries to use `*` for consistency.
+ - Doesn't use left attach since you might use the commands somewhere other than the start (e.g. when piping)
+
+```yaml
+(DELETED) K*D: {>}cd   # KR*D is 'CD', KR-D is 'considered'
+KR-P: {>}cp  # exists. KR*P is used for fingerspelling
+KPHOD: {>}chmod   # exists (without {>})
+KHOEPB: {>}chown  # exists (wihout {>})
+TKPWREP: {>}grep  # exists (without {>})
+PH-BG/TKEUR: {>}mkdir # exists (without {>})
+PH*BGD: {>}mkdir  # M*KDir
+PH*F: {>}mv  # exists as '{>}{^mv}'
+HR*S: {>}ls  # exists
+PW-D: {>}pwd # exists (without {>})
+R*F: {>}rf   # overwrites 'reticular formation'
+R-PL: {>}rm  # overwrites 'rm'
+R*PL: {>}rm  # * for consistency
+R-PL/TKEUR: {>}rmdir
+R*PLD: {>}rmdir  # R*MDir. Overwrites {&.r}
+SKR-P: {>}scp # no * for consistency with cp
+SKR*P: {>}scp # * for consistency with most else
+S*ED: {>}sed
+SH*: {>}ssh   # overwrites '{>}{&s}{&h}'
+SOUD: sudo
+P-P/SH: {^.sh}
+P-P/SH*: {^.sh}
+TKAEPL/O*PB: daemon
+```
+
+```yaml
+K-LT: {^ctl}
+S*RB: zsh
 ```
 
 ## DevOps
@@ -131,6 +169,7 @@ PHA*RBG/SKWROUPB: Markdown  # exists: Mark + ^down
 EL/TP: elif
 TK-F: def  # exists
 TK-L: del
+KWAERGS: kwargs # like AERG: arg. KWARGS: kwargs exists
 ```
 
 
@@ -145,50 +184,16 @@ THO*PB: Python
 
 ```yaml
 PHEU/PAO*EU: mypy
-PA/RAPL/TRAOEUZ: parametrize #pytest.parametrize
+PA/RAPL/TRAOEUZ: parametrize # pytest.parametrize
 PRAPL/TRAOEUZ: parametrize
-```
-
-## Unix
-
- - Prefixed with `{>}` for lowercase.
- - When possible, tries to use `*` for consistency.
- - Doesn't use left attach since you might use the commands somewhere other than the start (e.g. when piping)
-
-```yaml
-K*D: {>}cd   # KR*D is 'CD', KR-D is 'considered'
-KR-P: {>}cp  # exists. KR*P is used for fingerspelling
-KPHOD: {>}chmod   # exists (without {>})
-KHOEPB: {>}chown  # exists (wihout {>})
-TKPWREP: {>}grep  # exists (without {>})
-PH-BG/TKEUR: {>}mkdir # exists (without {>})
-PH*BGD: {>}mkdir  # M*KDir
-PH*F: {>}mv  # exists as '{>}{^mv}'
-HR*S: {>}ls  # exists
-PW-D: {>}pwd # exists (without {>})
-R*F: {>}rf   # overwrites 'reticular formation'
-R-PL: {>}rm  # overwrites 'rm'
-R*PL: {>}rm  # * for consistency
-R-PL/TKEUR: {>}rmdir
-R*PLD: {>}rmdir  # R*MDir. Overwrites {&.r}
-SKR-P: {>}scp # no * for consistency with cp
-SKR*P: {>}scp # * for consistency with most else
-S*ED: {>}sed
-SH*: {>}ssh   # overwrites '{>}{&s}{&h}'
-SOUD: sudo
-P-P/SH: {^.sh}
-P-P/SH*: {^.sh}
-```
-
-```yaml
-K-LT: {^ctl}
-S*RB: zsh
+KW-T: qt
 ```
 
 ## Yaml
 
 ```yaml
 KWRAPL/-L: yaml
+KWRAFRL: yaml # FR=M, like -FRP: -mp. Not technically Plover theory, but useful
 ```
 
 ## Misc
@@ -197,4 +202,12 @@ KWRAPL/-L: yaml
 SHR*: ssl
 SR-S/KO*ED: VSCode
 PWOERT/TP*S: btrfs
+```
+
+## Added by Plover
+
+```yaml
+PHAO*EU/PAO*EU: py
+KR-D: {>}cd
+SRAOEURPB: environ
 ```

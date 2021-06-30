@@ -1,9 +1,8 @@
 # British English
 
+This is a work in progress.
+
 - [Spelling Changes](#spelling-changes)
-  - [^or -> ^our](#or---our)
-  - [^er -> ^re](#er---re)
-  - [^ize -> ^ise, ^ization -> ^isation](#ize---ise-ization---isation)
 - [Pronunciation Changes](#pronunciation-changes)
 - [URLs](#urls)
 - [Briefs](#briefs)
@@ -13,7 +12,20 @@
 
 ## Spelling Changes
 
-### ^or -> ^our
+The second yaml block is overriding briefs not defined in Plover.
+
+-ce (nouns) -> -se (verbs)
+
+following the SREUS: advice, SREUZ: advise pattern that is already in the dictionary
+
+```yaml
+PRABGS: practice # exists
+PRABGZ: practise
+HR-PBZ: license
+HR-PBS: licence # overrides license
+```
+
+-or -> -our
 
 ```yaml
 THOR: authorise
@@ -27,7 +39,7 @@ HRAEUB: labour
 HRAEURB: labour
 ```
 
-### ^er -> ^re
+-er -> -re
 
 ```yaml
 KAL/PW*ER: calibre
@@ -35,7 +47,7 @@ KAL/PW-R: calibre
 STR*: centre # keeping STR: center for programming
 ```
 
-### ^ize -> ^ise, ^ization -> ^isation
+-ize -> -ise
 
 ```yaml
 AOEUZ: {^ise}
@@ -50,10 +62,23 @@ THRAELZ: realise that
 R*EZ: recognise
 REZ: recognise
 ```
+
+-zation -> -sation
+```yaml
+PHREUT/SAEUGS: politicisation
+```
+
+-ization -> -isation
+
 ```yaml
 SA*EUGS: {^isation}
 ORGS: organisation
 ```
+
+```yaml
+PHREUT/SA*EUGS: politicisation
+```
+
 
 ## Pronunciation Changes
 
@@ -66,8 +91,9 @@ SHED/AOUL: schedule # shed/^ule. already exists under `SHED/KWRAOUL`, `SKED/AOUL
 ## URLs
 
 ```yaml
-P-P/AOUBG: {^.uk}
 PAOUPBG: {^.uk} # folded
+P-P/AOUBG: {^.uk}
+P-P/UBG: {^.uk}
 KOUBG: {^.co.uk}
 ```
 
@@ -94,9 +120,12 @@ KHUF: chuff
 KR*F: CV
 KWRU: EU
 KWROEUR/SREUGS: Eurovision
+HAOFR: hoover # overwrites Hoover (use HAO*FR)
+TPHOB/HREU: knobbly
 -FRP: MP
 TPH*S: NHS
-PRAEPL: pram
+PER/APL/PWHRAEURT: perambulator
+PRAEPL: pram # PRAPL: program
 SEFP: sesh
 SOEF: sofa
 TEL/HREU: telly
