@@ -29,53 +29,55 @@ ATTACHMENT_METHOD = "space"
 
 # variant format = ['', 'E', 'U', 'EU']
 # or single string
+# F P L
+# R B G
 SYMBOLS = {
     # computer keys
-    "FG": ["{#Tab}", "{#Backspace}", "{#Delete}", "{#Escape}"],
-    "FRPBG": ["{#Page_Up}", "{#Home}", "{#End}", "{#Page_Down}"],
-    "FRBG": ["{#AudioPlay}", "{#AudioPrev}", "{#AudioNext}", "{#AudioMute}"],
-    "FPLG": [
-        "{#AudioRaiseVolume}",
-        "{#MonBrightnessDown}",
-        "{#MonBrightnessUp}",
-        "{#AudioLowerVolume}",
-    ],
+    "FG": ["{#Tab}", "{#Print}", "{#Return}", "{#Shift(Tab)}"],
+    "RL": ["{#AudioPlay}", "{#AudioPrev}", "{#AudioNext}", "{#AudioMute}"],
+    "FL": ["{#AudioLowerVolume}", "{#Home}", "{#End}", "{#AudioRaiseVolume}"],
+    "RG": ["{#MonBrightnessDown}", "{#Page_Up}", "{#Page_Down}", "{#MonBrightnessUp}"],
     # space keys
-    "": ["", "{*!}", "{*?}", "{#Space}"],  # empty, delete space, add space, space
+    "": [
+        "{^ ^}",
+        "{*!}",
+        "{*?}",
+        "{#Space}",
+    ],  # space, delete space, add space, space key
     # arrows
-    "RPBG": ["↑", "←", "→", "↓"],  # arrow key cluster
+    "RPBG": ["{#Up}", "{#Left}", "{#Right}", "{#Down}"],
     # vertical lines
-    "FR": ["!", "!=", "!==", "¡"],  # vertical line (left)
-    "PB": ["|", "", "", ""],  # vertical line (middle)
-    "LG": [":", ";", "∵", "∴"],  # vertical line (right)
-    "FRLG": ["#", "©", "®", "™"],  # two (separated) vertical lines
-    # bottom dots
-    "R": [".", "•", "·", "…"],  # dot (bottom left)
-    "B": [",", "<", ">", "/>"],  # dot (bottom middle)
-    "G": ["*", "×", "x", "=>"],  # dot (bottom right)
-    # top dots
-    "F": ["'", "‘", "’", "‚"],  # dot (top left, like ')
+    "FR": ["!", "(", ")", "()"],  # vertical line (left)
+    "PB": ["|", "[", "]", "¦"],  # vertical line (middle)
+    "LG": [":", "\{", "\}", ";"],  # vertical line (right)
+    "FRLG": ["#", "@", "~", "#!"],  # two (separated) vertical lines
+    # left dots
+    "F": ["'", "‘", "’", "‚"],  # dot (top left), like '
     "FP": ['"', "“", "”", "„"],  # two top left keys, like "
-    "P": ["`", "≤", "≥", "π"],  # dot (mid top)
-    "L": ["+", "#!", "", "->"],  # dot (top right)
+    "R": [
+        ".",
+        "•",
+        "·",
+        "…",
+    ],  # dot (bottom left). period, bullet, interpunct, ellipses
+    # middle dots
+    "P": ["`", "<", ">", "->"],  # dot (mid top)
+    "B": [",", "</", "/>", "=>"],  # dot (bottom middle)
+    # right dots
+    "L": ["+", "<=", ">=", "™"],  # dot (top right)
+    "G": ["*", "×", "x", ""],  # dot (bottom right)
     # horizontal lines (width 3)
-    "FPL": ["(", "[", "\{", "⟨"],  # all top
-    "RBG": [")", "]", "\}", "⟩"],  # all bottom
+    "RBG": ["$", "¥", "€", "£"],  # S-shape
     # horizontal lines (width 2)
-    "PL": ["-", "−", "–", "—"],  # line (top right) hyphen, minus, en-dash, em-dash
-    "BG": ["_", "≤", "≥", ""],  # line (bottom right)
-    "PBLG": ["=", "≡", "≈", "≠"],  # both lines
+    "PL": ["-", "−", "–", "—"],  # line (top right). hyphen, minus, en-dash, em-dash
+    "BG": ["_", "≠", "≈", "~"],  # line (bottom right)
+    "PBLG": ["=", "!=", "!==", ""],  # both lines
     # slash shapes
-    "RP": ["/", "÷", "#!", ""],  # /-shape
-    "FRPB": ["%", "‰", "‱", ""],  # /-shape, with extra dots
-    "FB": ["\\", "Δ", "√", "∞"],  # \-shape
-    # and
-    "FBG": ["&", "∨", "∧", "∈"],  # mirror image of SKP ("and")
+    "RP": ["/", "÷", "", "%"],  # /-shape
+    "FB": ["\\", "", "", ""],  # \-shape
     # other shapes
-    "FPB": ["?", "‽", "‽", "¿"],  # ?-shape
-    "RPG": ["^", "«", "»", "°"],  # ^-shape
-    "RPBL": ["$", "¥", "€", "£"],  # S-shape
-    "FPBG": ["~", "@", "♥", "Ⓐ"],  # wiggly shape
+    "FPB": ["?", "", "", "‽"],  # ?-shape
+    "RPG": ["^", "°", "", "&"],  # ^-shape
 }
 
 
