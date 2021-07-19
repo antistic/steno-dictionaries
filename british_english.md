@@ -2,6 +2,10 @@
 
 This is a work in progress.
 
+Requires:
+  - [plover-markdown-dictionary](https://github.com/antistic/plover-markdown-dictionary)
+
+Table of contents:
 - [Spelling Changes](#spelling-changes)
 - [Pronunciation Changes](#pronunciation-changes)
 - [URLs](#urls)

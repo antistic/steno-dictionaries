@@ -3,6 +3,10 @@
 
 Adapted from: https://github.com/EPLHREU/emily-symbols
 
+Requirements:
+    - python dictionary plugin (https://pypi.org/project/plover-python-dictionary/)
+    - scripts/conflicts.py if you want to find conflicts with other dictionaries
+
 Changes:
     - different symbols
     - single, non-# starter
@@ -30,6 +34,12 @@ SYMBOLS = {
     "FG": ["{#Tab}", "{#Backspace}", "{#Delete}", "{#Escape}"],
     "FRPBG": ["{#Page_Up}", "{#Home}", "{#End}", "{#Page_Down}"],
     "FRBG": ["{#AudioPlay}", "{#AudioPrev}", "{#AudioNext}", "{#AudioMute}"],
+    "FPLG": [
+        "{#AudioRaiseVolume}",
+        "{#MonBrightnessDown}",
+        "{#MonBrightnessUp}",
+        "{#AudioLowerVolume}",
+    ],
     # space keys
     "": ["", "{*!}", "{*?}", "{#Space}"],  # empty, delete space, add space, space
     # arrows
@@ -146,7 +156,7 @@ def lookup(chord):
 
     # add appropriate attachment as specified (again, prevent doing this
     # for retrospective add/delete spaces)
-    if selection not in ["{*!}", "{*?}"]:
+    if selection not in ["{*!}", "{*?}"] and not selection.startswith("{#Audio"):
         if attach[0]:
             output = "{^}" + output
         if attach[1]:
@@ -157,7 +167,7 @@ def lookup(chord):
         if not attach[0]:
             output = "{}" + output
         if not attach[1]:
-            output = output + "{^ ^}{^}"  # explicit space
+            output = output + "{^ ^}"  # explicit space
 
     # apply capitalisation
     if capital:

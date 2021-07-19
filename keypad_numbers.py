@@ -4,6 +4,10 @@
 Adapted from: /u/a589
 https://www.reddit.com/r/Plover/comments/fgt6tp/list_of_alternative_number_systems/
 
+Requirements:
+    - python dictionary plugin (https://pypi.org/project/plover-python-dictionary/)
+    - scripts/conflicts.py if you want to find conflicts with other dictionaries
+
 Usage:
     Enter up to 3 digits at once
 

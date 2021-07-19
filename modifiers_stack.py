@@ -3,6 +3,10 @@
 
 Adapted from: https://github.com/EPLHREU/emily-modifiers
 
+Requirements:
+    - python dictionary plugin (https://pypi.org/project/plover-python-dictionary/)
+    - scripts/conflicts.py if you want to find conflicts with other dictionaries
+
 Changes:
     - different symbols
     - right hand symbols

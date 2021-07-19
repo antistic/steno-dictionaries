@@ -1,5 +1,11 @@
 # Changes
 
+Various changes I have made to my dictionary.
+
+Requires:
+  - [plover-markdown-dictionary](https://github.com/antistic/plover-markdown-dictionary)
+
+Table of contents:
 - [Punctuation](#punctuation)
 - [Briefs](#briefs)
 - [Alternatives / Misspellings](#alternatives--misspellings)

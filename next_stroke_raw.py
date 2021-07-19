@@ -2,6 +2,9 @@
 """Write raw steno stroke on next stroke
 
 Adapted from: https://pypi.org/project/plover-python-dictionary/
+
+Requirements:
+    - python dictionary plugin (https://pypi.org/project/plover-python-dictionary/)
 """
 
 LONGEST_KEY = 2
