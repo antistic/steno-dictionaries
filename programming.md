@@ -1,16 +1,16 @@
 # Programming
 
 Requires:
-  - [plover-markdown-dictionary](https://github.com/antistic/plover-markdown-dictionary)
+ - [plover-markdown-dictionary](https://github.com/antistic/plover-markdown-dictionary)
 
 Other useful dictionaries:
-  - Find symbols at [symbols.py](./symbols.py), which is my fork of [Emily's Symbols](https://github.com/EPLHREU/emily-symbols).
-  - If you use vim, the attachment [fingerspelling dictionary](./fingerspelling.json) ([script](./scripts/fingerspelling.py)) may be useful.
+ - Find symbols at [symbols.py](./symbols.py), which is my fork of [Emily's Symbols](https://github.com/EPLHREU/emily-symbols).
+ - If you use vim, the attachment [fingerspelling dictionary](./fingerspelling.json) ([script](./scripts/fingerspelling.py)) may be useful.
 
 
 Theory:
-  - File extensions are `P-P` followed by the letters in the extension, and are lowercase.
-  - Names have the lowercase variant (usually a command name) without a `*` and the brand name with a `*`. This is different to what's in the default Plover dictionary.
+ - File extensions are `P-P` followed by the letters in the extension, and are lowercase.
+ - Names have the lowercase variant (usually a command name) without a `*` and the brand name with a `*`. This is different to what's in the default Plover dictionary.
 
 ## General
 
@@ -30,23 +30,37 @@ P-P: {^.^}{>} # add lowercase to next word since I'm usually using this for doma
 ### Words
 
 ```yaml
+APB/SEU: ansi
 AERG: arg # A*RG is argh
 RAE: array # A/RAEU
-APB/SEU: ansi
 PWAOL: bool # exists
-KO*PBS: const
+K-PLD: cmd
 K-FG: config # exists as KAUPB/TP*EUG
+KO*PBS: const
+KHOE: echo # overwrites Cho (use KHO or KHO*E)
 SRAOEURPB: environ
 TPAOEUL/PA*ET: filepath # using AE since you may still want TPAOEUL/PA*T: file path
-SPW*: int # exists
+TPA*UPBG: func # exists
+EUPBG: inc # overwrites Inc. (use AO*EPBG)
 "*EUPBT": int # exists
+SPW*: int # exists
 TPHAUPL: num # TPHUPL is taken by number
+RA*E: re
+RUPB/TAO*EUPL: runtime
 S-RBG: src # exists
+ST*D: std # overwrites standard deviation (use STAO*EFD)
 ST*R: str # STR: center, ST-R: sister. STR*: centre by my British dictionary, so ST*R is what's left
 T-FRP: tmp
 TO/TKO*: todo
 TUPL: tuple
 AO*ULT: util # AOULT: utility, AOU/TEUL: util
+```
+
+Things you might expect if using the above briefs
+
+```yaml
+K-FG/RAEUGS: configuration # probably better to use TKPWRAEUGS
+KHOED: echoed # overwrites choad
 ```
 
 ## Command Line
@@ -57,46 +71,60 @@ AO*ULT: util # AOULT: utility, AOU/TEUL: util
 
 ```yaml
 KR-D: {>}cd # KR*D: CD. Overwrites considered (use K-RD)
-KR-P: {>}cp # exists. KR*P is used for fingerspelling
 KPHOD: {>}chmod # exists (without {>})
 KHOEPB: {>}chown # exists (wihout {>})
+KR-P: {>}cp # exists. KR*P is used for fingerspelling
 TKPWREP: {>}grep # exists (without {>})
+HR*S: {>}ls # exists
 PH-BG/TKEUR: {>}mkdir # exists (without {>})
 PH*BGD: {>}mkdir # M*KDir
 PH*F: {>}mv # exists as '{>}{^mv}'
-HR*S: {>}ls # exists
+PAS/W*D: {>}passwd
 PW-D: {>}pwd # exists (without {>})
 R*F: {>}rf # overwrites 'reticular formation'
-R-PL: {>}rm # overwrites 'rm'
-R*PL: {>}rm # * for consistency
 R-PL/TKEUR: {>}rmdir
 R*PLD: {>}rmdir # R*MDir. Overwrites {&.r}
-SKR-P: {>}scp # no * for consistency with cp
+R*PL: {>}rm # * for consistency
+R-PL: {>}rm # overwrites 'rm'
 SKR*P: {>}scp # * for consistency with most else
+SKR-P: {>}scp # no * for consistency with cp
 S*ED: {>}sed
+P-P/SH: {^.sh}
 SH*: {>}ssh # overwrites '{>}{&s}{&h}'
 SOUD: {>}sudo # SAOU/TKAOU
-P-P/SH: {^.sh}
-P-P/SH*: {^.sh}
 ```
 
 ```yaml
 K-LT: {^ctl}
+TKPHO*PB: daemon
 TKAEPL/O*PB: daemon
 S*RB: zsh
+HREUB/TPH*PT: libinput
 ```
 
 ## DevOps
 
 ```yaml
+ARPB: arn
+A*US: aws
+A*US/A*US: AWS
+A*US/A*US/A*US: Amazon Web Services
+A*US/KHREU: aws-cli # A*US/KHR*EU: AWS CLI
 KREUBGD: CI/CD
 TKOFRBG: dockerfile
 TKOT/TPAOEUL: dotfile
 TKOT/TPAOEULS: dotfiles
 TKOT/TPAOEULZ: dotfiles
+EBGS/K-LT: eksctl
+TPH*PBLGS: nginx # TPH-PBLGS: engines
 "*EF": env
-K-8S: kubernetes
 H*EPL: helm # HEL/-PL
+K*8S: k8s
+KAO*UB: kube
+KAOUB/K-LT: kubectl
+K-8S: kubernetes
+KAOUB/TPHET/AOES: kubernetes
+KAOUB/TPHET/AOEZ: kubernetes
 ```
 
 ## HTML & CSS
@@ -135,9 +163,13 @@ P-P/SKWR-S: {^}{>}.js
 SKWR-FPB: json # overwrites JSON
 SKWR*FPB: JSON
 P-PL/2: pm2
-P-PL/#PH: pm2 # using keypad numbers dictionary (numbers.py)
-HRAR/SREL: Laravel
-SRAO*U: Vue
+P-PL/34: pm2 # using keypad numbers dictionary (numbers.py)
+HRAR/SREL: laravel
+HRA*R/SREL: Laravel
+SRAO*U: vue
+SRAO*U/SRAO*U: Vue
+P-P/SRAOU: {^}{>}.vue
+P-P/SRAO*U: {^}{>}.vue
 ```
 
 ## Markdown
@@ -165,6 +197,20 @@ PHARBG/SKWROUPB: markdown # exists: mark + ^down
 PHA*RBG/SKWROUPB: Markdown # exists: Mark + ^down
 ```
 
+## PHP
+
+```yaml
+ELS/EUF: elseif # ELS/TP: else if, ELS/TP* elsef (fingerspelling)
+EPBD/EUF: endif
+TPRAOEFP: foreach
+TP-R/AO*EFP: foreach
+```
+
+```yaml
+PH-P: php
+PH-P/PH-P: PHP # star version conflicts with fingerspelling
+```
+
 ## Python
 
 ```yaml
@@ -185,9 +231,10 @@ THO*PB: Python
 
 ```yaml
 PHEU/PAO*EU: mypy
-PHAO*EU/PAO*EU: mypy
+PHAOEU/PAO*EU: mypy
 PA/RAPL/TRAOEUZ: parametrize # pytest.parametrize
 PRAPL/TRAOEUZ: parametrize
+PRAPLT/AOEUZ: parametrize
 KW-T: qt
 ```
 
@@ -196,6 +243,8 @@ KW-T: qt
 ```yaml
 KWRAPL/-L: yaml
 KWRAFRL: yaml # FR=M, like -FRP: -mp. Not technically Plover theory, but useful
+P-P/KWR-FRL: {^}{>}.yml
+P-P/KWRAFRL: {^}{>}.yaml
 ```
 
 ## Misc
@@ -204,4 +253,5 @@ KWRAFRL: yaml # FR=M, like -FRP: -mp. Not technically Plover theory, but useful
 SHR*: ssl
 SR-S/KO*ED: VSCode
 PWOERT/TP*S: btrfs
+P-P/T-GT: {^}{>}.txt
 ```
