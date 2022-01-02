@@ -3,7 +3,7 @@
 This is a work in progress.
 
 Requires:
-  - [plover-markdown-dictionary](https://github.com/antistic/plover-markdown-dictionary)
+- [plover-markdown-dictionary](https://github.com/antistic/plover-markdown-dictionary)
 
 Table of contents:
 - [Spelling Changes](#spelling-changes)
@@ -13,6 +13,7 @@ Table of contents:
 - [Regional words](#regional-words)
 - [Places](#places)
 - [Currency](#currency)
+
 
 ## Spelling Changes
 
@@ -26,7 +27,7 @@ following the SREUS: advice, SREUZ: advise pattern that is already in the dictio
 PRABGS: practice # exists
 PRABGZ: practise
 HR-PBZ: license
-HR-PBS: licence # overrides license
+HR-PBS: licence #  overwrites license
 ```
 
 -or -> -our
@@ -83,13 +84,21 @@ ORGS: organisation
 PHREUT/SA*EUGS: politicisation
 ```
 
+-ling -> -lling
+```yaml
+PHO*ELD/-G: modelling
+```
+
 
 ## Pronunciation Changes
 
 ```yaml
 PWAOET/KWRA: beta
 PWA/SEUL: basil
+PWAEFL: basil # PWAFL: baffle
 SHED/AOUL: schedule # shed/^ule. already exists under `SHED/KWRAOUL`, `SKED/AOUL`
+TPHAT/TOE: tomato
+TPHAT/TOES: tomatoes
 ```
 
 ## URLs
@@ -150,4 +159,12 @@ SAEUPBS/PWRAOES: Sainsbury\'s
 
 ```yaml
 P*PBDZ: {*(£c)}
+```
+
+## Added by Plover
+
+```yaml
+TOPB: tonne
+TOPBS: tonnes
+SOERBL/AOEUZ: socialise
 ```

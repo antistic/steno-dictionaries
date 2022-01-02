@@ -112,7 +112,7 @@ def lookup(strokes):
         0b001100001: lambda x: "{^}[-" + x + "]",  # SI: negative index
         0b000000101: lambda x: f"{{#Super(Shift({x}))}}",  # SK: move window to workspace x (i3)
         0b000000100: lambda x: f"{{#Super({x})}}",  # K: Change to workspace x (i3)
-        0b000000110: lambda x: "{^}:" + x,  # D-: colon, e.g. for time
+        0b000000110: lambda x: x + "{^}:{^}",  # D-: colon, e.g. for time
         0b010000000: lambda x: x + "am",  # D: am
         0b100000000: lambda x: x + "pm",  # Z: pm
     }[groups[0]](main)

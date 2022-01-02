@@ -47,8 +47,8 @@ SYMBOLS = {
     # arrows
     "RPBG": ["{#Up}", "{#Left}", "{#Right}", "{#Down}"],
     # vertical lines
-    "FR": ["!", "(", ")", "()"],  # vertical line (left)
-    "PB": ["|", "[", "]", "¦"],  # vertical line (middle)
+    "FR": ["!", "[", "]", ""],  # vertical line (left)
+    "PB": ["|", "(", ")", "()"],  # vertical line (middle)
     "LG": [":", "\{", "\}", ";"],  # vertical line (right)
     "FRLG": ["#", "@", "~", "#!"],  # two (separated) vertical lines
     # left dots
@@ -73,7 +73,7 @@ SYMBOLS = {
     "BG": ["_", "≠", "≈", "~"],  # line (bottom right)
     "PBLG": ["=", "!=", "!==", ""],  # both lines
     # slash shapes
-    "RP": ["/", "÷", "", "%"],  # /-shape
+    "RP": ["/", "÷", "?", "%"],  # /-shape
     "FB": ["\\", "", "", ""],  # \-shape
     # other shapes
     "FPB": ["?", "", "", "‽"],  # ?-shape

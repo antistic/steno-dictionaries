@@ -18,7 +18,7 @@ This expects this dictionary to be located in a `dictionaries` folder in the Plo
 config folder. You'll need to change this if you put this dictionary somewhere else.
 
 ```yaml
-TPR*D: {PLOVER:SOLO_DICT:+dictionaries/finger-drills.md} # FR*D FingeR Drill
+(UPDATED) TPR*D: {PLOVER:SOLO_DICT:+dictionaries/finger_drills.md} # FR*D FingeR Drill
 STPR*D: {PLOVER:END_SOLO_DICT} # SFR*D Stop FingeR Drill
 ```
 

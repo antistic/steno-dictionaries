@@ -12,7 +12,7 @@ Theory:
  - File extensions are `P-P` followed by the letters in the extension, and are lowercase.
  - Names have the lowercase variant (usually a command name) without a `*` and the brand name with a `*`. This is different to what's in the default Plover dictionary.
 
-## General
+## General / Misc
 
 ### Commands/Keys
 
@@ -34,26 +34,39 @@ APB/SEU: ansi
 AERG: arg # A*RG is argh
 RAE: array # A/RAEU
 PWAOL: bool # exists
+PWOERT/TP*S: btrfs
+KPH-D: cmd
 K-PLD: cmd
 K-FG: config # exists as KAUPB/TP*EUG
 KO*PBS: const
+KRO*L: ctrl
 KHOE: echo # overwrites Cho (use KHO or KHO*E)
 SRAOEURPB: environ
 TPAOEUL/PA*ET: filepath # using AE since you may still want TPAOEUL/PA*T: file path
 TPA*UPBG: func # exists
+HAO*EPTS: HTTPS
 EUPBG: inc # overwrites Inc. (use AO*EPBG)
 "*EUPBT": int # exists
 SPW*: int # exists
+TPHAF: nav
+TPHA*F: nav # overwrites 1/2 (use HA*F)
 TPHAUPL: num # TPHUPL is taken by number
+P-P/P-FD: {^}.pdf
+P-FD: pdf
 RA*E: re
 RUPB/TAO*EUPL: runtime
+STK-BG: sdk
 S-RBG: src # exists
+SHR*: ssl
 ST*D: std # overwrites standard deviation (use STAO*EFD)
 ST*R: str # STR: center, ST-R: sister. STR*: centre by my British dictionary, so ST*R is what's left
+S-FG: svg
 T-FRP: tmp
 TO/TKO*: todo
 TUPL: tuple
+P-P/T-GT: {^}{>}.txt
 AO*ULT: util # AOULT: utility, AOU/TEUL: util
+SR-S/KO*ED: VSCode
 ```
 
 Things you might expect if using the above briefs
@@ -130,19 +143,26 @@ KAOUB/TPHET/AOEZ: kubernetes
 ## HTML & CSS
 
 ```yaml
-H-PLT: html
 KR-SZ: css
 KR*SZ: CSS
+EPLS: {^em} # unit of measurement. EM/AEM/*EM/A*EM are all taken
+P-P/H*PLT: {^}.html
+H-PLT: html
+EUPLG: img
+P-BGS: {^px}
 SKR-SZ: scss
 SKR*SZ: SCSS
-EPLS: {^em} # unit of measurement. EM/AEM/*EM/A*EM are all taken
 ```
 
 ## Git
 
 ```yaml
+TKPWEUT/HR-G: git lg
+TKPWHR-G: git lg
+TKPW-RB: git push
 P-P/TKPWEUT/EUG/TPHOR: .gitignore
 P-R: PR
+PH*R: MR # PH-R: Mr., PHR: mister
 TKPWUB: github
 TKPWEUT/HUB: github
 TKPW*UB: GitHub
@@ -153,28 +173,39 @@ TKPWHRA*B: GitLab
 TKPWEUT/HRA*B: GitLab
 ```
 
-## JavaScript & JSON
+## JavaScript, JSON, web dev
 
 ```yaml
-TPH-PL: npm # the command. overwrites {&n-}
-TPH*PL: NPM # the brand. overwrites New Mexico, which still exists under TPH*PL/TPH*PL and TPHU/PHEBGS/KOE
-P-P/SKWR-FPB: {^}{>}.json
-P-P/SKWR-S: {^}{>}.js
-SKWR-FPB: json # overwrites JSON
+KHRO*G: console.log(
+TPAOEUR/PWA*EUS: firebase
+TPAOEUR/STO*R: firestore
+TPRAO*EFP: forEach
+SKWR-S: js
+SKWR-S/SKWR-S: JS
 SKWR*FPB: JSON
-P-PL/2: pm2
-P-PL/34: pm2 # using keypad numbers dictionary (numbers.py)
+SKWR-FPB: json # overwrites JSON
 HRAR/SREL: laravel
 HRA*R/SREL: Laravel
+PH*PBD: mdn
+TPH-PL: npm # overwrites {&n-}
+TPH-PL/TPH-PL: npm # overwrites {&n-}
+TPHUBGT: Nuxt
+TPHUGT: nuxt # overwrites nugget (use TPH*UGT)
+TPH*UGT: nugget
+P-PL/2: pm2
+P-PL/34: pm2 # using keypad numbers dictionary (numbers.py)
+P-P/SRAO*U: {^}{>}.vue
 SRAO*U: vue
 SRAO*U/SRAO*U: Vue
-P-P/SRAOU: {^}{>}.vue
-P-P/SRAO*U: {^}{>}.vue
+SRAO*U/HREU/TKAEUD: vuelidate
+SRAO*U/HREU/TKAEUT: vuelidate
+SRAOUBGS: vuex
+SROUBGS: vuex
 ```
 
 ## Markdown
 
-Useful symbols to learn:
+Useful symbols to learn (all in emily symbols / [symbols.py](./symbols.py)):
 
 - Open and closing _italics_ `{*^}` `{^*}`
 - Open and closing **bold** `{**^}` `{^**}`
@@ -187,7 +218,7 @@ Useful symbols to learn:
 - Various brackets
 
 ```yaml
-KH-BGS: - [ ] # CHeckBoX: currently mapped to 'which cans' because of 'KH-BG: which can'
+KH-BGS: - [ ] # CHeckBoX: overwrites 'which cans' because of 'KH-BG: which can'
 ```
 
 ```yaml
@@ -197,13 +228,18 @@ PHARBG/SKWROUPB: markdown # exists: mark + ^down
 PHA*RBG/SKWROUPB: Markdown # exists: Mark + ^down
 ```
 
+## Lua
+
+```yaml
+HRAOU/SKWRA: lua # if you can think of a good one-stroke let me know
+```
+
 ## PHP
 
 ```yaml
 ELS/EUF: elseif # ELS/TP: else if, ELS/TP* elsef (fingerspelling)
 EPBD/EUF: endif
 TPRAOEFP: foreach
-TP-R/AO*EFP: foreach
 ```
 
 ```yaml
@@ -245,13 +281,4 @@ KWRAPL/-L: yaml
 KWRAFRL: yaml # FR=M, like -FRP: -mp. Not technically Plover theory, but useful
 P-P/KWR-FRL: {^}{>}.yml
 P-P/KWRAFRL: {^}{>}.yaml
-```
-
-## Misc
-
-```yaml
-SHR*: ssl
-SR-S/KO*ED: VSCode
-PWOERT/TP*S: btrfs
-P-P/T-GT: {^}{>}.txt
 ```

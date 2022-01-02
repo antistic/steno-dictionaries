@@ -38,7 +38,7 @@ from pathlib import Path
 
 
 # Print any conflicts found in enabled dictionaries
-SHOW_CONFLICTS = False
+SHOW_CONFLICTS = True
 
 # Set to None to print to console instead
 OUTPUT_FILE = Path(__file__).parent / "../fingerspelling.json"
@@ -86,8 +86,8 @@ SPELLING = {
 VARIANTS = [
     ("{left}{vowels1}*{vowels2}", "{{^}}{{>}}{letter}{{^}}"),
     ("{left}{vowels1}*{vowels2}P", "{{^}}{{-|}}{letter}{{^}}"),
-    ("{left}{vowels1}*{vowels2}RBGS", "{{>}}{{&{letter}}}"),
-    ("{left}{vowels1}*{vowels2}FPLT", "{{-|}}{{&{letter}}}"),
+    ("{left}{vowels1}-{vowels2}RBGS", "{{>}}{{&{letter}}}"),
+    ("{left}{vowels1}-{vowels2}FPLT", "{{-|}}{{&{letter}}}"),
 ]
 
 

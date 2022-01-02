@@ -91,89 +91,81 @@ SPELLING = {
 # note: should keep consistent with symbols.py
 SYMBOLS_LEFT = {
     # computer keys
-    "KH": ["tab", "delete", "backspace", "escape"],
-    "KPWHR": ["page_up", "end", "home", "page_down"],
+    "KH": ["tab", "backspace", "delete", "escape"],  # not the same
+    "KR": ["", "home", "end", ""],
+    "TH": ["", "page_up", "page_down", ""],
     # no audio keys
     # space keys
-    "": ["space", "tab", "return", "space"],
+    "": ["space", "backspace", "return", "space"],  # not the same
     # arrows
     "KPWR": ["up", "left", "right", "down"],
     # vertical lines
-    "HR": ["exclam", "", "", ""],
-    "PW": ["bar", "", "", ""],
-    "TK": ["colon", "semicolon", "", ""],
-    "TKHR": ["numbersign", "", "", ""],
-    # bottom dots
-    "R": ["period", "", "", ""],
-    "W": ["comma", "", "", ""],
-    "K": ["asterisk", "", "", "multiply"],
-    # top dots
+    "HR": ["exclam", "bracketleft", "bracketright", ""],
+    "PW": ["bar", "parenleft", "parenright", ""],
+    "TK": ["colon", "braceleft", "braceright", "semicolon"],
+    "TKHR": ["numbersign", "at", "asciitilde", ""],
+    # left dots
     "H": ["apostrophe", "", "", ""],
     "PH": ["quotedbl", "", "", ""],
+    "R": ["period", "", "", ""],
+    # middle dots
     "P": ["grave", "", "", ""],
+    "W": ["comma", "", "", ""],
+    # right dots
     "T": ["plus", "", "", ""],
+    "K": ["asterisk", "", "", "multiply"],
     # horizontal lines (width 3)
-    "TPH": ["parenleft", "bracketleft", "braceleft", ""],
-    "KWR": ["parenright", "bracketright", "braceright", ""],
+    "KWR": ["dollar", "euro", "yen", "sterling"],  # not mirrored
     # horizontal lines (width 2)
     "TP": ["minus", "", "", ""],
     "KW": ["underscore", "", "", ""],
     "TKPW": ["equal", "", "", ""],
     # slash shapes
-    "WH": ["slash", "", "", ""],  # not mirrored
-    "PWHR": ["percent", "", "", ""],  # not mirrored
+    "WH": ["slash", "", "", "percent"],  # not mirrored
     "PR": ["backslash", "", "", ""],  # not mirrored
-    # and
-    "SKP": ["ampersand", "", "", ""],
     # other shapes
     "PHR": ["question", "", "", ""],  # not mirrored
-    "KPR": ["asciicircum", "", "", ""],
-    "KPWH": ["dollar", "euro", "yen", "sterling"],  # not mirrored
-    "TPWR": ["asciitilde", "at", "", ""],  # not mirrored
+    "KPR": ["asciicircum", "", "", "ampersand"],
 }
 
 # note: should keep consistent with symbols.py
 SYMBOLS_RIGHT = {
     # computer keys
-    "FG": ["tab", "delete", "backspace", "escape"],
-    "FRPBG": ["page_up", "end", "home", "page_down"],
+    "FG": ["tab", "backspace", "delete", "escape"],  # not the same
+    "RG": ["", "home", "end", ""],
+    "FL": ["", "page_up", "page_down", ""],
     # no audio keys
     # space keys
-    "": ["space", "tab", "return", "space"],
-    # typable symbols
+    "": ["space", "backspace", "return", "space"],  # not the same
+    # arrows
     "RPBG": ["up", "left", "right", "down"],
     # lines
-    "FR": ["exclam", "", "", ""],
-    "PB": ["bar", "", "", ""],
-    "LG": ["colon", "semicolon", "", ""],
-    "FRLG": ["numbersign", "", "", ""],
-    # bottom dots
-    "R": ["period", "", "", ""],
-    "B": ["comma", "", "", ""],
-    "G": ["asterisk", "", "", "multiply"],
-    # top dots
+    "FR": ["exclam", "bracketleft", "bracketright", ""],
+    "PB": ["bar", "parenleft", "parenright", ""],
+    "LG": ["colon", "braceleft", "braceright", "semicolon"],
+    "FRLG": ["numbersign", "at", "asciitilde", ""],
+    # left dots
     "F": ["apostrophe", "", "", ""],
     "FP": ["quotedbl", "", "", ""],
+    "R": ["period", "", "", ""],
+    # middle dots
     "P": ["grave", "", "", ""],
+    "B": ["comma", "", "", ""],
+    # right dots
     "L": ["plus", "", "", ""],
+    "G": ["asterisk", "", "", "multiply"],
     # horizontal lines (width 3)
-    "FPL": ["parenleft", "bracketleft", "braceleft", ""],
-    "RBG": ["parenright", "bracketright", "braceright", ""],
+    "RBG": ["dollar", "euro", "yen", "sterling"],
     # horizontal lines (width 2)
     "PL": ["minus", "", "", ""],
     "BG": ["underscore", "", "", ""],
     "PBLG": ["equal", "", "", ""],
-    # slash shapes (not mirrored)
-    "RP": ["slash", "", "", ""],
-    "FRPB": ["percent", "", "", ""],
+    # slash shapes
+    "RP": ["slash", "", "", "percent"],
     "FB": ["backslash", "", "", ""],
-    # and
-    "FBG": ["ampersand", "", "", ""],
     # other shapes
-    "FPB": ["question", "", "", ""],  # not mirrored
-    "RPG": ["asciicircum", "", "", ""],
-    "RPBL": ["dollar", "euro", "yen", "sterling"],  # not mirrored
-    "FPBG": ["asciitilde", "at", "", ""],  # not mirrored
+    "FPB": ["question", "", "", ""],
+    "RPG": ["asciicircum", "", "", "ampersand"],
 }
 
 # note: keep consistent with numbers.py
