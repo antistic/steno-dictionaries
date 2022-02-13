@@ -1,18 +1,14 @@
 #!/usr/bin/python
 """Symbols Dictionary
 
-Adapted from: https://github.com/EPLHREU/emily-symbols
+Adapted from:
+    https://github.com/EPLHREU/emily-symbols
+
+    - different symbols
+    - trailing spaces are explicitly added if attachment method is space
 
 Requirements:
     - python dictionary plugin (https://pypi.org/project/plover-python-dictionary/)
-    - scripts/conflicts.py if you want to find conflicts with other dictionaries
-
-Changes:
-    - different symbols
-    - single, non-# starter
-    - trailing spaces are explicitly added if attachment method is space
-    - if you run this file directly it will print out any conflicts this file has with
-      any of your enabled json dictionaries
 
 Usage:
     starter        - SKWH (modifiable)
@@ -22,147 +18,158 @@ Usage:
     symbol         - FRPBLG (any pattern)
     repetition     - TS
 """
-import re
+
+from plover.system import Stroke
 
 UNIQUE_STARTERS = ["SKWH"]
 ATTACHMENT_METHOD = "space"
 
 # variant format = ['', 'E', 'U', 'EU']
-# or single string
-# F P L
-# R B G
+# or single string to set all
 SYMBOLS = {
-    # computer keys
-    "FG": ["{#Tab}", "{#Print}", "{#Return}", "{#Shift(Tab)}"],
-    "RL": ["{#AudioPlay}", "{#AudioPrev}", "{#AudioNext}", "{#AudioMute}"],
-    "FL": ["{#AudioLowerVolume}", "{#Home}", "{#End}", "{#AudioRaiseVolume}"],
-    "RG": ["{#MonBrightnessDown}", "{#Page_Up}", "{#Page_Down}", "{#MonBrightnessUp}"],
-    # space keys
+    # ░░░░░░ spaces
+    # ░░░░░░
     "": [
         "{^ ^}",
-        "{*!}",
-        "{*?}",
+        "{*!}",  # delete space
+        "{*?}",  # add space
         "{#Space}",
-    ],  # space, delete space, add space, space key
-    # arrows
-    "RPBG": ["{#Up}", "{#Left}", "{#Right}", "{#Down}"],
-    # vertical lines
-    "FR": ["!", "[", "]", ""],  # vertical line (left)
-    "PB": ["|", "(", ")", "()"],  # vertical line (middle)
-    "LG": [":", "\{", "\}", ";"],  # vertical line (right)
-    "FRLG": ["#", "@", "~", "#!"],  # two (separated) vertical lines
-    # left dots
-    "F": ["'", "‘", "’", "‚"],  # dot (top left), like '
-    "FP": ['"', "“", "”", "„"],  # two top left keys, like "
-    "R": [
-        ".",
-        "•",
-        "·",
-        "…",
-    ],  # dot (bottom left). period, bullet, interpunct, ellipses
-    # middle dots
-    "P": ["`", "<", ">", "->"],  # dot (mid top)
-    "B": [",", "</", "/>", "=>"],  # dot (bottom middle)
-    # right dots
-    "L": ["+", "<=", ">=", "™"],  # dot (top right)
-    "G": ["*", "×", "x", ""],  # dot (bottom right)
-    # horizontal lines (width 3)
-    "RBG": ["$", "¥", "€", "£"],  # S-shape
-    # horizontal lines (width 2)
-    "PL": ["-", "−", "–", "—"],  # line (top right). hyphen, minus, en-dash, em-dash
-    "BG": ["_", "≠", "≈", "~"],  # line (bottom right)
-    "PBLG": ["=", "!=", "!==", ""],  # both lines
-    # slash shapes
-    "RP": ["/", "÷", "?", "%"],  # /-shape
-    "FB": ["\\", "", "", ""],  # \-shape
-    # other shapes
-    "FPB": ["?", "", "", "‽"],  # ?-shape
-    "RPG": ["^", "°", "", "&"],  # ^-shape
+    ],
+    #
+    # ██░░░░ keys
+    # ░░░░██
+    "-FG": ["{#Tab}", "{#Print}", "{#Return}", "{#Shift(Tab)}"],
+    #
+    # ██░░██  ░░░░░░ navigation and
+    # ░░░░░░  ██░░██ brightness
+    "-FL": ["{#Page_Up}", "{#Home}", "{#End}", "{#MonBrightnessUp}"],
+    "-RG": [
+        "{#Page_Down}",
+        "{#Control(Left)}",  # move cursor left one word
+        "{#Control(Right)}",  # move cursor right one word
+        "{#MonBrightnessDown}",
+    ],
+    #
+    # ██░░██ media
+    # ██░░░░ position
+    "-FRL": ["{#AudioPlay}", "{#AudioPrev}", "{#AudioNext}", "{#AudioStop}"],
+    #
+    # ██░░░░ media
+    # ██░░██ volume
+    "-FRG": [
+        "{#AudioMute}",
+        "{#AudioLowerVolume}",
+        "{#AudioRaiseVolume}",
+        "{#AudioMute}",
+    ],
+    #
+    # ░░██░░ arrows
+    # ██████
+    "-RPBG": ["{#Up}", "{#Left}", "{#Right}", "{#Down}"],
+    #
+    # ██░░░░ ░░██░░ ░░░░██ tall
+    # ██░░░░ ░░██░░ ░░░░██ punctuation
+    "-FR": ["!", "[", "]", ""],
+    "-PB": ["|", "(", ")", "()"],
+    "-LG": [":", "\\{", "\\}", ";"],
+    #
+    # ██░░██ complicated
+    # ██░░██ punctuation
+    "-FRLG": ["#", "@", "~", "#!"],
+    #
+    # ██░░░░ ████░░ quotes
+    # ░░░░░░ ░░░░░░
+    "-F": ["'", "‘", "’", "‚"],  # dot (top left), like '
+    "-FP": ['"', "“", "”", "„"],  # two top left keys, like "
+    #
+    # ░░░░░░ dots
+    # ██░░░░
+    "-R": [".", "•", "·", "…"],  # period, bullet, interpunct, ellipses
+    #
+    # ░░██░░ ░░░░░░
+    # ░░░░░░ ░░██░░
+    "-P": ["`", "<", ">", "->"],
+    "-B": [",", "</", "/>", "=>"],
+    #
+    # ░░░░██ ░░░░░░
+    # ░░░░░░ ░░░░██
+    "-L": ["+", "©", "°", "™"],
+    "-G": ["*", "", "", "×"],
+    #
+    # ░░░░░░ currency
+    # ██████
+    "-RBG": ["$", "£", "€", "¥"],
+    #
+    # ░░████ ░░░░░░ ░░████
+    # ░░░░░░ ░░████ ░░████
+    "-PL": ["-", "−", "–", "—"],  #  hyphen, minus, en-dash, em-dash
+    "-BG": ["_", "", "", "~"],
+    "-PBLG": ["=", "!=", "!==", "≈"],
+    #
+    # ░░██░░ ██░░░░
+    # ██░░░░ ░░██░░
+    "-RP": ["/", "÷", "", "%"],
+    "-FB": ["\\", "", "", ""],
+    #
+    # ████░░ question
+    # ░░██░░ marks
+    "-FPB": ["?", "?!", "(?)", "‽"],
+    #
+    # ░░██░░
+    # ██░░██
+    "-RPG": ["^", "{#Tab}", "", "&"],
 }
 
 
 LONGEST_KEY = 1
 
 
-def lookup(chord):
-    assert len(chord) <= LONGEST_KEY
+def lookup(strokes):
+    assert len(strokes) <= LONGEST_KEY
 
-    stroke = chord[0]
+    stroke = Stroke(strokes[0])
+    keys = stroke.keys()
 
-    # the regex decomposes a stroke into the following groups/variables:
-    # starter:        #STKPWHR
-    # attachment:             AO
-    # capitalisation:           *-
-    # variants:                   EU
-    # pattern:                      FRPBLG
-    # repetitions:                        TS
-    # unused:                               DZ
-    match = re.fullmatch(
-        r"([#STKPWHR]*)([AO]*)([*-]?)([EU]*)([FRPBLG]*)([TS]*)", stroke
-    )
+    starter = stroke & Stroke("#STKPWHR-")
+    pattern = stroke & Stroke("-FRPBLG")
 
-    if match is None:
-        raise KeyError
-    (
-        starter,
-        attachments,
-        capitalisation,
-        variants,
-        pattern,
-        repetitions,
-    ) = match.groups()
-
-    if starter not in UNIQUE_STARTERS:
+    if starter.rtfcre not in UNIQUE_STARTERS:
         raise KeyError
 
-    # calculate the attachment method, and remove attachment specifier keys
+    if pattern.rtfcre not in SYMBOLS:
+        raise KeyError
+
+    attach_left = "A-" in keys
+    attach_right = "O-" in keys
+    capital = "*" in keys
+    variant = ("-E" in keys) + 2 * ("-U" in keys)  # abuse of True = 1, False = 0
+    repeat = 1 + ("-S" in keys) + 2 * ("-T" in keys)
+
+    # calculate the attachment method
     attach = [
-        (ATTACHMENT_METHOD == "space") ^ ("A" in attachments),
-        (ATTACHMENT_METHOD == "space") ^ ("O" in attachments),
+        (ATTACHMENT_METHOD == "space") ^ attach_left,
+        (ATTACHMENT_METHOD == "space") ^ attach_right,
     ]
 
-    # detect if capitalisation is required, and remove specifier key
-    capital = capitalisation == "*"
-
-    # calculate the variant number, and remove variant specifier keys
-    variant = 0
-    if "E" in variants:
-        variant = variant + 1
-    if "U" in variants:
-        variant = variant + 2
-
-    # calculate the repetition, and remove repetition specifier keys
-    repeat = 1
-    if "S" in repetitions:
-        repeat = repeat + 1
-    if "T" in repetitions:
-        repeat = repeat + 2
-
-    if pattern not in SYMBOLS:
-        raise KeyError
-
     # extract symbol entry from the 'symbols' dictionary, with variant specification if available
-    selection = SYMBOLS[pattern]
-    if type(selection) == list:
+    selection = SYMBOLS[pattern.rtfcre]
+    if isinstance(selection, list):
         selection = selection[variant]
     output = selection
 
     # repeat the symbol the specified number of times
     output = output * repeat
 
-    # attachment space to either end of the symbol string to avoid escapement,
-    # but prevent doing this for retrospective add/delete spaces, since it'll
-    # mess with these macros
-    if selection not in ["{*!}", "{*?}"]:
+    if selection not in ["{*!}", "{*?}"]:  # retrospective add/delete spaces
+        # attachment space to either end of the symbol string to avoid escapement,
         output = " " + output + " "
 
-    # add appropriate attachment as specified (again, prevent doing this
-    # for retrospective add/delete spaces)
-    if selection not in ["{*!}", "{*?}"] and not selection.startswith("{#Audio"):
-        if attach[0]:
-            output = "{^}" + output
-        if attach[1]:
-            output = output + "{^}"
+        # add appropriate attachment as specified
+        if not selection.startswith("{#Audio"):
+            if attach[0]:
+                output = "{^}" + output
+            if attach[1]:
+                output = output + "{^}"
 
     # cancel out some formatting when using space attachment
     if ATTACHMENT_METHOD == "space":
@@ -171,17 +178,7 @@ def lookup(chord):
         if not attach[1]:
             output = output + "{^ ^}"  # explicit space
 
-    # apply capitalisation
     if capital:
         output = output + "{-|}"
 
-    # all done :D
     return output
-
-
-if __name__ == "__main__":
-    from scripts.conflicts import prepare, check_lookup_conflicts
-
-    json_merged, python_lookups = prepare()
-
-    check_lookup_conflicts(json_merged, python_lookups, lookup)
