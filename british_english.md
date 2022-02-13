@@ -1,9 +1,8 @@
 # British English
 
-This is a work in progress.
+### Requires
 
-Requires:
-- [plover-markdown-dictionary](https://github.com/antistic/plover-markdown-dictionary)
+- [plover_markdown_dictionary](https://github.com/antistic/plover_markdown_dictionary)
 
 Table of contents:
 - [Spelling Changes](#spelling-changes)

@@ -3,7 +3,7 @@
 Dictionary for when you need to output raw strokes for drilling.
 
 Requires:
-- [plover-markdown-dictionary](https://github.com/antistic/plover-markdown-dictionary)
+- [plover_markdown_dictionary](https://github.com/antistic/plover_markdown_dictionary)
 - [plover-dictionary-commands](https://pypi.org/project/plover-dict-commands/)
 
 This dictionary will work well with the [Da Dreaded Dueling Digit

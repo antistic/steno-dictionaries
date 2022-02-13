@@ -1,7 +1,7 @@
 # Programming
 
 Requires:
- - [plover-markdown-dictionary](https://github.com/antistic/plover-markdown-dictionary)
+- [plover_markdown_dictionary](https://github.com/antistic/plover_markdown_dictionary)
 
 Other useful dictionaries:
  - Find symbols at [symbols.py](./symbols.py), which is my fork of [Emily's Symbols](https://github.com/EPLHREU/emily-symbols).

@@ -2,10 +2,11 @@
 
 My user dictionary.
 
-**Requires:**
- - [plover-markdown-dictionary](https://github.com/antistic/plover-markdown-dictionary)
+## Requires
 
-**Table of contents:**
+- [plover_markdown_dictionary](https://github.com/antistic/plover_markdown_dictionary)
+
+## Table of contents
 - [Punctuation](#punctuation)
 - [Keyboard Control](#keyboard-control)
   - [Keys](#keys)
