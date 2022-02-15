@@ -96,7 +96,7 @@ OPTIONS = {
     "T*": lambda x: f"{{^}}:{x}",  # Time (minutes)
     "TA*": lambda x: f"{{^}}:{x}am",  # Time (minutes) am
     "TO*": lambda x: f"{{^}}:{x}pm",  # Time (minutes) pm
-    "P": lambda x: f"${{^}}{{&{x}}}",  # Pounds
+    "P": lambda x: f"£{{^}}{{&{x}}}",  # Pounds
     "H": lambda x: f"${{^}}{{&{x}}}",  # dollars
 }
 
