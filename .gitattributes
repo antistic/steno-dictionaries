@@ -1,0 +1,3 @@
+# fix github language detection to include the dictionaries
+*.json linguist-detectable
+*.md linguist-detectable
