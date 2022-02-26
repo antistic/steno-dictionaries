@@ -83,14 +83,14 @@ def function_key(x):
 OPTIONS = {
     "": lambda x: f"{{&{x}}}",
     "A": lambda x: "{^}" + x,  # Attach
-    "TPH-": lambda x: "-" + x,  # Negative
+    "TPH": lambda x: "-" + x,  # Negative
     "TPHA": lambda x: "{^}-" + x,  # Attach Negative
-    "TP-": function_key,  # Function key
+    "TP": function_key,  # Function key
     "EU": lambda x: f"{{#Super({x})}}",  # i3: Go to workspace x
     "*EU": lambda x: f"{{#Super(Shift({x}))}}",  # i3: Move to workspace x
     "AO": lambda x: x + "{}",  # separate numbers. AO like Emily spacing
     "O": lambda x: " ".join(x) + "{}",  # separate digits
-    "T-": lambda x: f"{x}:00",  # Time
+    "T": lambda x: f"{x}:00",  # Time
     "TA": lambda x: f"{x}am",  # Time am
     "TO": lambda x: f"{x}pm",  # Time pm
     "T*": lambda x: f"{{^}}:{x}",  # Time (minutes)
