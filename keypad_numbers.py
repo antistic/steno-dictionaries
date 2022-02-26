@@ -51,12 +51,12 @@ NUMBERS = {
     "-P": "3",
     "-FR": "4",
     "-FRPB": "5",
+    "-FB": "5", # \ shape
     "-PB": "6",
     "-R": "7",
     "-RB": "8",
     "-B": "9",
-    "-RP": "0",  # diagonals
-    "-FB": "0",
+    "-RP": "0", # / shape
     "-FRP": "00",  # top left corner
     "-FPB": "00",  # top right
     "-FRB": "000",  # bottom left
