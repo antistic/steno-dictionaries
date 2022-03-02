@@ -2,10 +2,13 @@
 """Create a fingerspelling JSON dictionary
 
 Usage:
-    `python fingerspelling.py`
-    or use the generated file "fingerspelling.json" in the parent directory
+    Edit the SPELLING and VARIANTS
+
+    Then run `python fingerspelling`
+    `python fingerspelling.py -h` for help on what the options are
 """
 
+import argparse
 import json
 from pathlib import Path
 
@@ -24,10 +27,7 @@ Stroke.setup(
     english_stenotype.NUMBERS,
 )
 
-
-# Set to None to print to console instead
-OUTPUT_FILE = Path(__file__).parent / "../fingerspelling.json"
-
+# key: letter(s)
 SPELLING = {
     # Plover theory
     "A": "a",
@@ -82,17 +82,41 @@ VARIANTS = [
 ]
 
 
-if __name__ == "__main__":
-    output = {}
-
+def generate_dictionary():
+    dictionary = {}
     for key, letter in SPELLING.items():
         letter_stroke = Stroke(key)
-        letter_keys = letter_stroke.keys()
         for variant_stroke, before, after in VARIANTS:
             stroke = letter_stroke + variant_stroke
-            output[str(stroke)] = before + letter + after
+            dictionary[str(stroke)] = before + letter + after
+    return dictionary
 
-    if OUTPUT_FILE:
-        OUTPUT_FILE.write_text(json.dumps(output, indent=2))
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Generate a fingerspelling dictionary")
+    parser.add_argument(
+        "output_file",
+        help="Dictionary output file (default: fingerspelling.json)",
+        type=str,
+        nargs="?",
+        default="fingerspelling.json",
+    )
+    parser.add_argument(
+        "--console",
+        help="Print dictionary to the console instead of saving it to a file",
+        action="store_true",
+    )
+
+    args = parser.parse_args()
+
+    dictionary = generate_dictionary()
+
+    if args.console:
+        print(json.dumps(dictionary, indent=2))
     else:
-        print(json.dumps(output, indent=2))
+        output_path = Path(args.output_file)
+        output_path.write_text(json.dumps(dictionary, indent=2))
+
+        print(
+            f"Wrote dictionary ({len(dictionary.keys())} entries) to {output_path.resolve()}"
+        )
