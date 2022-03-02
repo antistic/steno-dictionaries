@@ -25,10 +25,11 @@ Usage:
         The corners are 1, 3, 7, 9.
         Adjacent keys give you the ones in between.
 
-        Any diagonal makes 0.
-        Any 3 with the top row makes 00.
-        L-shape makes 000
-        Backwards L-shape makes ,000
+        \\ shape is 0.
+        / shape is 5.
+        Any 3 with the top row is 00.
+        L-shape is 000
+        Backwards L-shape is ,000
 
 
     The other keys are available for options:
@@ -51,12 +52,12 @@ NUMBERS = {
     "-P": "3",
     "-FR": "4",
     "-FRPB": "5",
-    "-FB": "5", # \ shape
+    "-RP": "5", # / shape
     "-PB": "6",
     "-R": "7",
     "-RB": "8",
     "-B": "9",
-    "-RP": "0", # / shape
+    "-FB": "0", # \ shape
     "-FRP": "00",  # top left corner
     "-FPB": "00",  # top right
     "-FRB": "000",  # bottom left
