@@ -1,0 +1,506 @@
+-------
+user.md
+-------
+KWR*/TPHOE                                        y'know
+
+--------------
+programming.md
+--------------
+KP*/TKE/PWUG                                      xdebug
+
+---------
+main.json
+---------
+*E/PHRAOUR/PWUS/KWRAOU/TPHUPL                     e pluribus unum
+*E/PHRAOUR/PWUS/KWRAOUPB                          e pluribus unum
+*E/PHRAOUR/PWUS/KWRAOUPB/UPL                      e pluribus unum
+*E/S*/HREUPBT                                     eslint
+*E/SP-S                                           e
+*EP/TKEBG                                         epidemic
+*EP/TKPWAS/TREU/KWRUPL                            epigastrium
+*EP/TKPWRAF                                       epigraph
+*EP/TKPWRAPL/AT/EUBG                              epigrammatic
+*EU/PAD                                           iPad
+*EU/PO*D                                          iPod
+*EU/POD                                           iPod
+*EU/S*/KH*/*E/*U/PH*                              ischium
+*EU/SP-S                                          i
+*EU/TAL/KWRAPB                                    Italian
+*EU/TAOUPBS                                       iTunes
+*EU/THROEUD                                       euthyroid
+*EU/TPH*/O*/TROEP/EUBG                            inotropic
+*EU/TPOEPB                                        iPhone
+*EU/TPOS/TPA/PHAOEUD                              ifosfamide
+*EUP/KAEUGS                                       implication
+*EUP/KAPL                                         ICAM
+*EUP/PHUBGT                                       IMCD
+*EUP/PW*P/34*7                                    IBM
+*EUP/TKPW*P/TP*P/1                                IGF-1
+*U/H*U                                            uh-huh
+*U/O*E                                            uh-oh
+*U/SP-S                                           u
+*UP/TKPW*/TKPW*/-S                                Uggs
+*UP/TO*/TKA*EUT                                   up-to-date
+A*/HA*                                            ah-ha
+A*/HR*EUS                                         A-list
+A*/KAD/PHEU                                       Academy
+A*/KR*/*E/T*/O*/P*/H*/*EU/HR*/*EU/KR*             acidophilic                   {^}{>}a{^}{^}{>}c{^}{^}{>}e{^}{^}{>}t{^}{^}{>}o{^}{^}{>}p{^}{^}{>}h{^}{^}{>}i{^}{^}{>}l{^}{^}{>}i{^}{^}{>}c{^}
+A*/KR*/*E/T*/O*/TP*EULG                           acidophilic
+A*/PW*BG                                          abc
+A*/SP-S                                           a
+A*/TPH*/*EU/KA*                                   Anika
+A*P/KRO*PL                                        AComA
+A*P/T*P/APBD/T*P                                  AT&T
+A*P/T*P/SKP/T*P                                   AT&T
+AFPLT/-F                                          amount of
+AFPLT/TK-FPLT                                     A.D.                          {-|}{&a}{-|}{&d}
+ARBGS/A*RP                                        AARP
+ARBGS/P*B                                         APB
+ARBGS/PH*BG                                       AMC
+ARBGS/PHA*                                        AMA
+ARBGS/PW*BG                                       ABC
+ARBGS/PWA*                                        ABA
+ARBGS/T*RBGS/TPH*T                                AT&T
+ARBGS/T-RBGS/TPH*T                                AT&T
+ARBGS/TK*P                                        ADP                           {>}{&a}{^}{-|}d{^}
+ARBGS/TKA*                                        ADA
+ARBGS/TPH*E                                       A&E
+ARBGS/WO*L                                        AWOL
+EFPLT/KO/HRAOEU                                   E. coli
+EFPLT/KOE/HRAOEU                                  E. coli
+EFPLT/P-FPLT/AFPLT                                E.P.A.                        {-|}{&e}{-|}{&p}{-|}{&a}
+ERBGS/AOEUS                                       exercise
+ERBGS/AOEUZ                                       exercise
+ERBGS/AOUDZ                                       exudes
+ERBGS/ERT                                         exert
+ERBGS/ERT/-D                                      exerted
+ERBGS/EUFT                                        exist
+ERBGS/K*G                                         EKG
+ERBGS/O*EBG                                       EEOC
+ERBGS/PA*                                         EPA
+ERBGS/PERTS                                       exerts
+ERBGS/PREGS                                       expression
+ERBGS/S*P                                         ESP                           {>}{&e}{^}{-|}s{^}
+ERBGS/S*T                                         EST
+ERBGS/SAOEU                                       exercise
+ERBGS/SAOEUS                                      exercise
+ERBGS/SAOEUSZ                                     exercises
+ERBGS/SAOEUZ                                      exercise
+ERBGS/SAOEUZ/-D                                   exercised
+ERBGS/TA*                                         ETA
+ERBGS/TERPBL                                      external
+ERBGS/TK*P                                        EDP                           {>}{&e}{^}{-|}d{^}
+ERBGS/TRA                                         extra
+ERBGS/TRA/KREUBG/HRAR                             extracurricular
+ERBGS/TRES/TRAL                                   extraterrestrial
+EUFPLT/TK-FPLT                                    I.D.                          {-|}{&i}{-|}{&d}
+EUFPLT/TK-FPLT/-S                                 IDs
+EURBGS/*UD                                        IUD
+EURBGS/KR*BG                                      ICC
+EURBGS/KR*PBL                                     ICBM
+EURBGS/KR*U                                       ICU
+EURBGS/O*U                                        IOU
+EURBGS/PW*PL                                      IBM
+EURBGS/R*S                                        IRS
+EURBGS/RA*                                        IRA
+H*/SP-S                                           h
+H*P/HAO*EPB                                       H-
+H*P/PHR*US                                        H+
+H*P/SKP/*EP                                       H&E
+H-RBGS/*EUF                                       HIV
+H-RBGS/*UD                                        HUD
+H-RBGS/2/ORBGS                                    H2O
+H-RBGS/H*S                                        HHS
+H-RBGS/PHO*                                       HMO
+H-RBGS/PWO*                                       HBO
+HR*/HAO*EUPL                                      l'chaim
+HR*/KHAOEUPL                                      l'chaim
+HR*/SP-S                                          l
+HR*/TKOE/PA                                       L-DOPA
+HR*/TKOEP/SKWRA                                   L-DOPA
+HR*P/PHAL/A*T                                     L-malate
+HR*P/ST*PL                                        L-system
+HR*P/TAOEUP                                       L-type
+HR*P/TKOE/PA                                      L-DOPA
+HR*P/TKOEP/KWRA                                   L-DOPA
+HR-FPLT/AFPLT                                     L.A.                          {-|}{&l}{-|}{&a}
+HR-RBGS/A*PB                                      LAN
+HR-RBGS/P*PB                                      LPN
+HR-RBGS/P*PL                                      LPM
+HR-RBGS/PW*PBLG                                   LBJ
+HR-RBGS/S*D                                       LSD
+K*/A*/HR*/*EU/KR*/R*/*E/TPH*                      kallikrein                    {^}{>}k{^}{^}{>}a{^}{^}{>}l{^}{^}{>}i{^}{^}{>}c{^}{^}{>}r{^}{^}{>}e{^}{^}{>}n{^}
+K*P/*E/W*/TKPWARD/*EPB/-S                         Kew Gardens
+K*P/KAL                                           Kcal
+K*P/KALS                                          Kcals
+K*P/PHART                                         K-Mart
+K-RBGS/K*BG                                       KKK
+K-RBGS/PHART                                      K-Mart
+KP*/PHAS                                          Xmas
+KP*/RAEU                                          X-ray
+KP*/RAEUS                                         X-rays
+KP*/SP-S                                          x
+KP*P/PH*EPB                                       X-Men
+KP*P/PWOBGS                                       Xbox
+KP*P/PWOBGS/3-69                                  Xbox 360
+KP*P/PWOBGS/306                                   Xbox 360
+KP*P/PWOBGS/WUPB                                  Xbox One
+KP*P/RAEU                                         X-ray
+KP*P/RAEUS                                        X-rays
+KP-RBGS/*EBG/5                                    XEC-5
+KP-RBGS/KWR*Z                                     XYZ
+KP-RBGS/PHAS                                      Xmas
+KP-RBGS/RAEU                                      x-ray
+KR*/A*/HR*/HR*/*EU/TPH*/O*/TKPW*/*E/TPH*          kininogen                     {^}{>}c{^}{^}{>}a{^}{^}{>}l{^}{^}{>}l{^}{^}{>}i{^}{^}{>}n{^}{^}{>}o{^}{^}{>}g{^}{^}{>}e{^}{^}{>}n{^}
+KR*/O*/2*                                         co2
+KR*/SP-S                                          c
+KR*/TK*PB                                         cDNA
+KR*P/*EUP/A*UP                                    CIA
+KR*P/PAP                                          CPAP
+KR*P/PH*EUPB                                      Cmin
+KR*P/PH*P/T*EL/KOPL                               CM Telecom
+KR*P/PH*P/TEL/KOPL                                CM Telecom
+KR*P/PHA*BGS                                      Cmax
+KR*P/PHR*US/PHR*US                                C++
+KR*P/PHRUS/PHRUS                                  C++
+KR*P/RAOEBGT/EUF                                  C-reactive
+KR*P/TK*P/ROPL                                    CD-ROM
+KR*P/TKEUF                                        C diff
+KR*P/TKEUF/SEUL                                   C difficile
+KR*P/TPHAEURT/KWRET/EUBG                          C-natriuretic
+KR-FPLT/A*EU                                      C.I.A
+KR-FPLT/AFPLT/TK-FPLT                             C.A.D.                        {-|}{&c}{-|}{&a}{-|}{&d}
+KR-FPLT/EFPLT                                     C.E.                          {-|}{&c}{-|}{&e}
+KR-FPLT/O*D                                       C.O.D.
+KR-FPLT/OFPLT/TK-FPLT                             C.O.D.                        {-|}{&c}{-|}{&o}{-|}{&d}
+KR-FPLT/P-FPLT/R-FPLT                             CPR                           {-|}{&c}{-|}{&p}{-|}{&r}
+KR-FPLT/PA*                                       C.P.A.
+KR-RBGS/*EUBG                                     CIC
+KR-RBGS/A*EU                                      CIA
+KR-RBGS/HR*FS                                     CLVS
+KR-RBGS/KR*R                                      CCR
+KR-RBGS/O*D                                       COD
+KR-RBGS/O*RBGS/2                                  CO2
+KR-RBGS/ORBGS/2                                   CO2
+KR-RBGS/P*E                                       CPE
+KR-RBGS/P*L                                       CPL
+KR-RBGS/P*PL                                      CP/M
+KR-RBGS/P*U                                       CPU
+KR-RBGS/PA*                                       CPA
+KR-RBGS/PH*R                                      CMR
+KR-RBGS/PW*S                                      CBS
+KR-RBGS/R*EU                                      CRI
+KR-RBGS/R*R                                       CRR
+KR-RBGS/R*RBGS/TPOR/UPL                           CRForum
+KR-RBGS/R*T                                       CRT
+KR-RBGS/S*R                                       CSR
+KR-RBGS/TP*BG                                     CFC
+KR-RBGS/TPA*                                      CFA
+KR-RBGS/TPH*PB                                    CNN
+KW*/SP-S                                          q
+KW*/TEUP                                          Q Tip
+KW*P/TEUP                                         Q-Tip
+KW*P/TKPWEUS                                      QGIS
+KW-RBGS/TPHA*                                     Q&A
+KWR*/SP-S                                         y
+KWR*/TKPWHROB/HREUPB                              y-globulin
+O*/AE                                             O'
+O*/AE/KHROBG                                      o'clock
+O*/AE/RAOEUL/HREU                                 O'reilly
+O*/PHAOET/*ER                                     {^-o-meter}
+O*/SP-S                                           o
+O*/SREUGS                                         {^-o-vision}
+O*/T*/O*/TOBGS/EUS/TEU                            ototoxicity
+O*P/HRA*RBG                                       Olark
+O*P/KAPL/EL                                       OCaml
+O*P/PHUBGT                                        OMCD
+O*P/THAL/PHEUBG                                   ophthalmic
+ORBGS/K-RBGS                                      ok                            {>}{&o}{>}{&k}
+ORBGS/KR*R                                        OCR
+ORBGS/POS/T*EUF                                   {&O}
+ORBGS/POZ/T*EUF                                   {&O}
+ORBGS/T*BG                                        OTC
+ORBGS/TK*RBGS/-D                                  OD'd
+ORBGS/TRA                                         orchestra
+ORBGS/TRAEUGS                                     orchestration
+P*/SP-S                                           p
+P*P/*E/R*/K*/*EU/TPH*/SKWR*/*E                    Purkinje                      {^}{-|}p{^}{^}{>}e{^}{^}{>}r{^}{^}{>}k{^}{^}{>}i{^}{^}{>}n{^}{^}{>}j{^}{^}{>}e{^}
+P*P/*EP/TKPW*P/AO*UL/A*T/-D                       PEGylated
+P*P/*EP/TKPW*P/AOUL/A*LT                          PEGulate
+P*P/*EP/TKPW*P/AOUL/A*LT/-D                       PEGylated
+P*P/*EP/TKPW*P/AOUL/A*T/-D                        PEGylated
+P*P/*EP/TKPW*P/HRAEUT                             PEGylate
+P*P/*EP/TKPW*P/HRAEUT/-D                          PEGylated
+P*P/450*                                          P450
+P*P/A*P/KOEUT                                     PACO2
+P*P/KOEUT                                         PCO2
+P*P/KR*P/T*P/KREL                                 PCT cell
+P*P/KR*P/T*P/KRELS                                PCT cells
+P*P/KR*P/T*P/KRELS/TP-PL                          PCT cells.
+P*P/KRO*PL                                        PComA
+P*P/OEUT                                          PO2
+P*P/SKWR*P/SROEGT                                 PJ Vogt
+P*P/TKPWHRAOEUBG/PRAO*EPB                         P-glycoprotein
+P*P/TKPWHRAOEUBG/PRAO*EPBT                        P-glycoprotein
+P-FPLT/EUFPLT                                     P.I.                          {-|}{&p}{-|}{&i}
+P-FPLT/EUFPLT/TK-FPLT                             P.I.D.                        {-|}{&p}{-|}{&i}{-|}{&d}
+P-FPLT/H-FPLT/TK-FPLT                             PhD                           {-|}{&p}{-|}{&h}{-|}{&d}
+P-FPLT/O*FPLT/PWOBGS                              P.O. Box
+P-RBGS/A*BG                                       PAC
+P-RBGS/H*D                                        Ph.D.
+P-RBGS/H-RBGS/TK-RBGS                             P{l+}h{l-}.D                  {>}{&p}{>}{&h}{>}{&d}
+P-RBGS/HRO*                                       PLO
+P-RBGS/O*RBGS/PWOBGS                              PO Box
+P-RBGS/O*U                                        POW
+P-RBGS/PH*S                                       PMS
+P-RBGS/PW*S                                       PBS
+P-RBGS/TK*R                                       PDR
+P-RBGS/TKPWA*                                     PGA
+PH*/*EU/TK*E                                      {^mide}
+PH*/P*/3                                          mp3
+PH*/P*/3*                                         mp3
+PH*/R*P/TPH*P/A*P                                 mRNA                          {^}{>}m{^}{^}{-|}r{^}{^}{-|}n{^}{^}{-|}a{^}
+PH*/R*PB                                          mRNA
+PH*/SP-S                                          m
+PH*/TO*R                                          mTOR
+PH*/TOR                                           mTOR
+PH*P/A*P/O*P/A*P                                  MAO-A                         {^}{-|}m{^}{^}{-|}a{^}{^}{-|}o{^}{^}{-|}a{^}
+PH*P/A*P/O*P/PW*P                                 MAO-B                         {^}{-|}m{^}{^}{-|}a{^}{^}{-|}o{^}{^}{-|}b{^}
+PH*P/H*BGZ                                        mph
+PH*P/H*P/PH*P                                     mm-hm                         {^}{-|}m{^}{^}{-|}h{^}{^}{-|}m{^}
+PH*P/KR*P/TPROPBT/A/HROT                          MC Frontalot
+PH*P/P*P/3                                        mp3
+PH*P/T*P/TK*PB                                    mtDNA
+PH-FPLT/T-FPLT/KR-FRPLT                           M.T.C.
+PH-RBGS/A*EU                                      MIA
+PH-RBGS/P-RBGS/3                                  mp3
+PH-RBGS/PWA*                                      MBA
+PH-RBGS/R*EU                                      MRI
+PH-RBGS/S*RBGS/H-F/TKOS                           MS-DOS
+PH-RBGS/S*RBGS/TKOS                               MS-DOS
+PH-RBGS/S-RBGS/TKOS                               MS-DOS
+PH-RBGS/T*F                                       MTV
+PW*/KREL                                          B-cell
+PW*/SP-S                                          b
+PW*/TK*EUFT                                       bdist
+PW*/TKEUFT                                        bdist
+PW*P/KR*ELS                                       B-cells
+PW*P/KREL                                         B-cell
+PW*P/KRELS                                        B-cells
+PW*P/PHAO*EUPBS                                   B-
+PW*P/SKP/HR*P                                     B&L
+PW*P/SO*PB                                        BSON
+PW*P/TPHAEURT/KWRET/EUBG                          B-natriuretic
+PW-FPLT/KR-FPLT                                   B.C.                          {-|}{&b}{-|}{&c}
+PW-FPLT/KR-FPLT/EFPLT                             B.C.E.                        {-|}{&b}{-|}{&c}{-|}{&e}
+PW-FPLT/T*U                                       btu
+PW-RBGS/HR*T                                      BLT
+PW-RBGS/PW*S                                      BBS
+PW-RBGS/PWA*                                      BBA
+PW-RBGS/T*U                                       Btu
+PW-RBGS/TPH*E                                     B&E
+R*/SP-S                                           r
+R*P/H*P/RAOELT/KHEBG                              RH Reality Check
+R*P/KRUPL                                         R Crumb
+R-RBGS/H*/TPABG/TOR                               Rh factor
+R-RBGS/H*BGZ/POS/T*EUF                            Rh-positive
+R-RBGS/H*BGZ/POZ/T*EUF                            Rh-positive
+R-RBGS/H*BGZ/TPHEG/T*EUF                          Rh-negative
+R-RBGS/P*R                                        RPR
+R-RBGS/PH*R                                       RMR
+R-RBGS/PW*EU                                      RBI
+R-RBGS/S*RBGS/2/3/2                               RS-232
+R-RBGS/S*RBGS/23/2                                RS-232
+R-RBGS/TK*R                                       RDR
+R-RBGS/TPH*D                                      R&D
+S*/*EU/R*/*EU/TPH*/*E                             serine                        {^}{>}s{^}{^}{>}i{^}{^}{>}r{^}{^}{>}i{^}{^}{>}n{^}{^}{>}e{^}
+S*/SP-S                                           s
+S-RBGS/*EBG                                       SEC
+S-RBGS/A*T                                        SAT
+S-RBGS/O*S                                        SOS
+S-RBGS/PH*PBD/HR-RBGS                             S&L
+S-RBGS/PWA*                                       SBA
+S-RBGS/RO*                                        SRO
+S-RBGS/T*D                                        STD
+S-RBGS/TPH*L                                      S&L
+SA*/AOER                                          Zaire
+SA*/HRAOUT                                        salute
+SA*/HROPB                                         Salon
+SA*/RA                                            Sara
+SA*/RA*                                           Sara
+SA*/S*EU/KEU                                      tzatziki
+SA*/SA*                                           South America                 {^}{>}e{^}{^}{>}e{^}
+SA*/SA*/TKPWA/PWOR                                Zsa Zsa Gabor
+SA*/TKPWREB                                       Zagreb
+SA*/TPEUR/HRAUBG/AFT                              zafirlukast
+SA*P/-D                                           zapped
+SA*P/-G                                           zapping
+SA*P/-S                                           zaps
+SA*P/TPEUS/TA                                     Zapatista
+SAO*/HR-LG                                        zoological
+SAO*/HROPBLG/EUBG/HREU                            zoologically
+SAO*/HROPBLG/KAL                                  zoological
+SAO*/HROPBLG/KHREU                                zoologically
+SAO*/O*LGS                                        zoologist
+SAO*/OL/SKWR*EUS                                  zoologist
+SAO*/OLG                                          zoology
+SAO*/ROES                                         zeroes
+SAO*/TPHOES/ES                                    zoonoses
+SAO*/TPHOES/EUS                                   zoonosis
+SAO*/TPHOES/EUS/-S                                zoonoses
+SAO*/TPHOT/EUBG                                   zoonotic
+SKWR*/KW*ER                                       jQuery
+SKWR*/KWAO*ER                                     jQuery
+SKWR*/PEG                                         jpeg
+SKWR*/SP-S                                        j
+SKWR*P/AOUPBT                                     JUnit
+SKWR*P/KWER/KWREU                                 JQuery
+SKWR*P/SO*PB                                      JSON
+SKWR*P/STOR                                       JSTOR
+SKWR-RBGS/HRAO*EUBG                               {^...}like{,}
+SKWR-RBGS/KR*R                                    JCR
+SKWR-RBGS/KWRAO*UPB                               {^...}you know,
+SKWR-RBGS/TP*BG                                   JFK
+SO*/HRA                                           Zola
+SO*/HRO/TKA                                       Xeloda
+SO*/HROFT                                         Zoloft
+SO*/KAUL/-D                                       so-called
+SO*/RO/AFRT/KWRAPB                                Zoroastrian
+SR*/SP-S                                          v
+SR*P/HR-LD                                        VLDL
+SR*P/PHA*BGS                                      Vmax
+SR-RBGS/*EUP                                      VIP                           {>}{&v}{^}{-|}i{^}
+SR-RBGS/KR*R                                      VCR
+SR-RBGS/T*R                                       VTR
+SR-RBGS/TK*T                                      VDT
+SR-RBGS/TP*U                                      VFU
+STKPW*P/HRAOEUPB                                  Z-line
+STKPW*P/TKEUFBG                                   Z-disc
+T*/R*/O*/KH*/A*/TPH*/T*/A*                        trochanter
+T*/R*P/TPH*P/A*P                                  tRNA                          {^}{>}t{^}{^}{-|}r{^}{^}{-|}n{^}{^}{-|}a{^}
+T*/R*PB                                           tRNA
+T*/SP-S                                           t
+T*P/HR*P/*EP/S*P/R*P                              tLESR                         {^}{-|}t{^}{^}{-|}l{^}{^}{-|}e{^}{^}{-|}s{^}{^}{-|}r{^}
+T*P/HR*P/KR*P/HRA*EURS/STR                        TLC Laser Center
+T*P/KP*P/R*P/KP*P/HRABS                           TX/RX Labs
+T*P/KR*P/3-9                                      TC-39
+T*P/KREL                                          T-cell
+T*P/KRELS                                         T-cells
+T*P/PHA*BGS                                       Tmax
+T*P/S*P/EL/KWROT                                  T.S. Eliot
+T*P/SHEURT                                        T-shirt
+T*P/TAOUB/AOUL                                    T-tubule
+T*P/TAOUB/AOULS                                   T-tubules
+T*P/TK*P/PWA*PBG                                  TD Bank
+T-FPLT/HR-FPLT/KR-FPLT                            T.L.C.                        {-|}{&t}{-|}{&l}{-|}{&c}
+T-RBGS/H-PB/REBGS                                 T-Rex
+T-RBGS/HR*BG                                      TLC
+T-RBGS/PWEURD                                     t-bird
+T-RBGS/PWOEPB                                     T-bone
+T-RBGS/RO*                                        TRO
+T-RBGS/SHEURT                                     t-shirt
+T-RBGS/TPH*PB                                     TNN
+T-RBGS/TPH*T                                      TNT
+T-RBGS/WA*                                        TWA
+TK*/*E/KA*RB/OBGS/HRAEUZ                          decarboxylase
+TK*/A*E/OERBGS                                    d'oh
+TK*/PWA*                                          dba
+TK*/SHR-RB/PWA*                                   d/b/a
+TK*/SP-S                                          d
+TK*/TKOS                                          DDoS
+TK-FPLT/O*B                                       D.O.B.
+TK-FPLT/SR-FPLT/TK-FPLT/-S                        D.V.D.s
+TK-FPLT/TK*S                                      D.D.S.
+TK-RBGS/A*E                                       DEA
+TK-RBGS/AO*                                       DOA
+TK-RBGS/O*B                                       DOB
+TK-RBGS/O*BG                                      DOC
+TK-RBGS/O*D                                       DOD
+TK-RBGS/O*E                                       DOE
+TK-RBGS/O*L                                       DOL
+TK-RBGS/O*PBLG                                    DOJ
+TK-RBGS/O*S                                       DOS
+TK-RBGS/O*T                                       DOT
+TK-RBGS/PH*Z                                      DMZ
+TK-RBGS/PWA*                                      DBA
+TK-RBGS/TK*S                                      DDS
+TK-RBGS/TPHA*                                     DNA
+TK-RBGS/W*EU                                      DWI
+TKPW*/PHA*EUL                                     Gmail
+TKPW*/PHAEUL                                      Gmail
+TKPW*/SP-S                                        g
+TKPW*/TO                                          {^g to}
+TKPW*P/ABGT/*EUPB                                 G-actin
+TKPW*P/P*P/*EP                                    GPe                           {^}{-|}g{^}{^}{-|}p{^}{^}{-|}e{^}
+TKPW*P/P*P/*EUP                                   GPi                           {^}{-|}g{^}{^}{-|}p{^}{^}{-|}i{^}
+TKPW*P/P*P/P*P/A*                                 GPP-a                         {^}{-|}g{^}{^}{-|}p{^}{^}{-|}p{^}{^}{>}a{^}
+TKPW*P/P*P/P*P/PW*                                GPP-                          {^}{-|}g{^}{^}{-|}p{^}{^}{-|}p{^}{^}{>}b{^}
+TKPW*P/PHA*EUL                                    Gmail
+TKPW*P/PHAEUL                                     Gmail
+TKPW-FPLT/O*P                                     G.O.P.                        {-|}{&g}{^}{-|}o{^}
+TKPW-FPLT/TK-FPLT/P-FPLT                          G.D.P.                        {-|}{&g}{-|}{&d}{-|}{&p}
+TKPW-RBGS/*ED                                     GED
+TKPW-RBGS/AO*                                     GAO
+TKPW-RBGS/O*P                                     GOP                           {>}{&g}{^}{-|}o{^}
+TKPW-RBGS/PHAPB                                   G-man
+TKPW-RBGS/PHEPB                                   G-men
+TKPW-RBGS/PO*                                     GPO
+TKPW-RBGS/SA*                                     GSA                           {>}{&g}{^}{>}e{^}
+TKPW-RBGS/SPOT                                    g-spot
+TKPW-RBGS/TPH*P                                   GNP                           {>}{&g}{^}{-|}n{^}
+TP*/SP-S                                          f
+TP*P/PHREU                                        fMRI
+TP*P/TK*P/A*FPLT                                  FDA
+TP-FPLT/PW*EU                                     F.B.I.
+TP-FPLT/TK-FPLT/R-FPLT/TKRAOEUF                   FDR Drive
+TP-RBGS/HA*                                       FHA
+TP-RBGS/KR*BG                                     FCC
+TP-RBGS/KWR*EU                                    FYI
+TP-RBGS/O*B                                       FOB
+TP-RBGS/PW*EU                                     FBI
+TP-RBGS/T*BG                                      FTC
+TP-RBGS/TK*EUBG                                   FDIC
+TP-RBGS/TK*R                                      FDR
+TP-RBGS/TKA*                                      FDA
+TPH*/*PBT                                         nth
+TPH*/KWRET                                        nyet
+TPH*/SP-S                                         n
+TPH*/SREUD/KWRA                                   Nvidia
+TPH*P/A*P/TK*P/PHR*US                             NAD+
+TPH*P/R*EPL                                       NREM
+TPH*P/SREUD/KWRA                                  Nvidia
+TPH*P/TP*P/K*P/PW*P                               NF-kB                         {^}{-|}n{^}{^}{-|}f{^}{^}{-|}k{^}{^}{-|}b{^}
+TPH*P/TPHRAOEUD                                   N-nucleotide
+TPH-FPLT/KWR*BG                                   N.Y.C.
+TPH-FPLT/KWR-FPLT/P-FPLT/TK-FPLT                  N.Y.P.D.                      {-|}{&n}{-|}{&y}{-|}{&p}{-|}{&d}
+TPH-FPLT/KWR-FPLT/S-FPLT                          N.Y.S.                        {-|}{&n}{-|}{&y}{-|}{&s}
+TPH-FPLT/KWR-FPLT/UFPLT                           N.Y.U.                        {-|}{&n}{-|}{&y}{-|}{&u}
+TPH-RBGS/*EBG                                     NEC
+TPH-RBGS/KRA*                                     NCRA
+TPH-RBGS/KWR-RBGS/URBGS                           NYU                           {>}{&n}{>}{&y}{>}{&u}
+TPH-RBGS/O*U                                      NOW
+TPH-RBGS/PW*BG                                    NBC
+TPH-RBGS/TP*BG                                    NFC
+TPH-RBGS/TP*L                                     NFL
+UFPLT/KUFPLT                                      U.K.
+UFPLT/S*RS                                        U.S.S.R.
+UFPLT/S-FPLT                                      U.S.                          {-|}{&u}{-|}{&s}
+UFPLT/S-FPLT/AFPLT                                U.S.A.                        {-|}{&u}{-|}{&s}{-|}{&a}
+UFPLT/S-FPLT/S-FPLT                               U.S.S.                        {-|}{&u}{-|}{&s}{-|}{&s}
+UFPLT/S-FPLT/S-FPLT/TPHEUPL/EUTS                  U.S.S. Nimitz
+UFPLT/S-FPLT/TK-FPLT/AFPLT                        USDA                          {-|}{&u}{-|}{&s}{-|}{&d}{-|}{&a}
+UFPLT/S-FPLT/TKPW-FPLT/S-FPLT                     U.S.G.S.                      {-|}{&u}{-|}{&s}{-|}{&g}{-|}{&s}
+UFPLT/SA*                                         U.S.A.                        {-|}{&u}{^}{>}e{^}
+UFPLT/TP-FPLT/OFPLT/-S                            U.F.O.s
+URBGS/A*U                                         UAW
+URBGS/P*EU                                        UPI
+URBGS/PWOET                                       U-boat
+URBGS/S*PB                                        USN
+URBGS/S*RS                                        USSR
+URBGS/SA*                                         USA                           {>}{&u}{^}{>}e{^}
+URBGS/SO*                                         USO                           {>}{&u}{^}{>}u{^}
+URBGS/SPH*BG                                      USMC
+URBGS/TPO*                                        UFO
+URBGS/TPO*LGS                                     UFOlogist
+W*/SP-S                                           w
+W-RBGS/SPEBGT/TO                                  with respect to
