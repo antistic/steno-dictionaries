@@ -1,16 +1,6 @@
 #!/usr/bin/python
 """Generate a fingerspelling dictionary (and optionally find conflicts)
-
-Usage:
-    Edit the SPELLING and VARIANTS
-
-    Run `python fingerspelling.py -h` for help
-
-Limitations:
-    Won't find conflicts in dictionaries that don't implement `.items()`, such as
-    python dictionaries
 """
-
 import argparse
 import json
 from pathlib import Path
