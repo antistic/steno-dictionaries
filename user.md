@@ -148,9 +148,10 @@ T*RPL: "{#control(apostrophe)}" # open terminal in VSCode
 Requires [plover-dictionary-commands](https://pypi.org/project/plover-dict-commands/)
 
 ```yaml
-TKR*L: {PLOVER:TOGGLE_DICT:-dictionaries/british_english.md,-dictionaries/personal_style.md}{MODE:RESET} # drill
-TPH*L: {PLOVER:TOGGLE_DICT:+dictionaries/british_english.md,+dictionaries/personal_style.md}{MODE:LOWER} # normal (overwrites non-Hodgkin's lymphoma, use TPHA*UPB/H*L)
-PR*RP: {PLOVER:TOGGLE_DICT:+dictionaries/british_english.md,-dictionaries/personal_style.md}{MODE:RESET} # proper
+TKR*L: {PLOVER:TOGGLE_DICT:-dictionaries/uk/uk.md,-dictionaries/personal_style.md}{MODE:RESET} # drill
+TPH*L: {PLOVER:TOGGLE_DICT:+dictionaries/uk/uk.md,+dictionaries/personal_style.md}{MODE:LOWER} # normal (overwrites non-Hodgkin's lymphoma, use TPHA*UPB/H*L)
+PR*RP: {PLOVER:TOGGLE_DICT:+dictionaries/uk/uk.md,-dictionaries/personal_style.md}{MODE:RESET} # proper
+TK*FLT: {PLOVER:SOLO_DICT:+commands.json,+main.json,+dictionaries/end_solo_dict.md} # default
 R*LD: {PLOVER:SET_CONFIG} # reloads the dictionaries
 ```
 
