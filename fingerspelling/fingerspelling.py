@@ -168,7 +168,7 @@ if __name__ == "__main__":
         help=(
             "Find conflicts with your active dictionaries and saves the results to files. "
             "It will find if any stroke of a definition conflicts, and if all parts "
-            "conflict, it will suggest a fix."
+            "conflict, it will suggest a fix"
         ),
         action="store_true",
     )
