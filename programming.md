@@ -83,8 +83,8 @@ EFBG: esc
 ETS: etc # overwrites "et cetera" (use EGTS)
 TPAOEUL/PA*ET: filepath # using AE since you may still want TPAOEUL/PA*T: file path
 TPA*UPBG: func # exists
-TKPWAOE: gui
-TKPWAO*E: GUI
+TKPWAOU: gui # exists as TKPWRAOEU
+TKPWAO*U: GUI # exists as TKPWRAO*EU
 HAO*EPTS: HTTPS
 EUPBG: inc # overwrites Inc. (use AO*EPBG)
 SPWEPBLG: integer
@@ -174,6 +174,7 @@ S*RB: zsh
 
 ```yaml
 A*US/A*US: Amazon Web Services
+APBS/-BL: ansible
 ARPB: arn
 A*US: aws
 A*US/KHREU: aws-cli # A*US/KHR*EU: AWS CLI
@@ -239,8 +240,10 @@ TKPWEUT/HRAB: gitlab
 TKPWHRAB: gitlab
 TKPWEUT/HRA*B: GitLab
 TKPWHRA*B: GitLab
+TKPWHR-G: git lg
 TKPW-LG: git lg
 TKPWEUT/HR-G: git lg # lg is a popular alias for a pretty git log
+TKPW*UL: git pull
 TKPW*L: git pull # TKPW-L: gallon
 TKPW-RB: git push # puSH
 TKPW*RB: git push -u origin HEAD # pushes a new branch
@@ -322,7 +325,8 @@ HROEU: lua # trusty old OEU wildcard
 ## PHP
 
 ```yaml
-ELS/EUF: elseif # ELS/TP: else if, ELS/TP* elsef (fingerspelling)
+TPELS: elseif
+ELS/EUF: elseif  # ELS/TP* would conflict with fingerspelling
 EPBD/EUF: endif
 TPRAOEFP: foreach
 ```
@@ -390,4 +394,5 @@ P-P/KWRAFRL: {^}{>}.yaml
 KWRAPL/-L: yaml
 KWRAFRL: yaml # FR=M, like -FRP: -mp
 P-P/KWR-FRL: {^}{>}.yml
+KWR-FRL: yml
 ```

@@ -86,6 +86,7 @@ PHAOERT: metre # overrides meter (use PHAOET/*ER)
 TPHAOEF/TAEU: naivete # US spelling
 KWARLD: quarrelled
 RAEUT/-BL: rateable
+RAOEUD/-BL: rideable
 SAF/REU: savory # still have the other options for "savoury"
 STPHAL/-G: signalling
 STPHALG: signalling
@@ -199,5 +200,4 @@ TEFBG/SKWRO: Tesco
 TES/KOE: Tesco
 TES/KOES: "Tesco's"
 TEUT/PWEUT: titbit
-AOUPB: uni
 ```

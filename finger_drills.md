@@ -28,4 +28,5 @@ STPR*D: {PLOVER:END_SOLO_DICT} # SFR*D Stop FingeR Drill
 R*R: "{#Return}{^}" # Repeat: can't use R-R since it appears in "Left + Right" drill
 STPH-G: "{#Right}{^}" # Next: default plover right arrow
 STPH-R: "{#Left}{^}" # Back: default plover left arrow
+STPH-B: "{#Down}{^}"
 ```
