@@ -49,11 +49,12 @@ HR-PBS: licence #  overwrites license
 ### Suffixes
 
 ```yaml
-AOEUBL: {^isable}
-SA*EUGS: {^isation}
-AOEUZ: {^ise}
-AO*EUFD: {^ised}
-AO*EUFG: {^ising}
+KWROR: {^iour} # {^ior}. KWROUR: your
+AOEUBL: {^isable} # {^izable}
+SA*EUGS: {^isation} # {^ization}
+AO*EUFD: {^ised} # {^ized}
+AOEUZ: {^ise} # {^ize}
+AO*EUFG: {^ising} # {^izing}
 ```
 
 ### Other
@@ -86,7 +87,6 @@ PHAOERT: metre # overrides meter (use PHAOET/*ER)
 TPHAOEF/TAEU: naivete # US spelling
 KWARLD: quarrelled
 RAEUT/-BL: rateable
-RAOEUD/-BL: rideable
 SAF/REU: savory # still have the other options for "savoury"
 STPHAL/-G: signalling
 STPHALG: signalling
@@ -162,7 +162,6 @@ P*PBDZ: {*(£c)}
 
 ```yaml
 ARS: arse
-PER/TPHEUBG/TEU: pernickety
 OE/PWER/SKWRAOEPB: aubergine
 PWA*EUPL: BAME
 PWAO*EB: BBC
@@ -177,22 +176,29 @@ KR*F: CV
 KWRU: EU
 KWROEUR/SREUGS: Eurovision
 TPAF: faff
+HEUBG/UP: hiccup
 HAOFR: hoover # overwrites Hoover (use HAO*FR)
+EUPB/TPAPBT/HRAOEUZ: infantilise
 TPHOB/HREU: knobbly
 HREUD/*L: Lidl
 PHOPB/SO*: Monzo
+PHOF/-BLT: moveability
 -FRP: MP
 TPHAF: naff
 TPHAPB/TKOES: "Nando's"
 TPH*S: NHS
 PRAPL/PWHRAEURT: perambulator
 PER/APL/PWHRAEURT: perambulator # PER/APL/PWHRAEUT/O*R
+PER/TPHEUBG/TEU: pernickety
 PRAEPL: pram # PRAPL: program
 PEUPBLG/PHAS: pyjamas
 PEU/SKWRA/PHAS: pyjamas
+RAOEUD/-BL: rideable
 SAEUPBS/PWREUS: "Sainsbury's"
 SAEUPBS/PWRAOES: Sainsbury\'s
 SEFP: sesh
+SHAOEUT: shite
+SHEUT/SKWRE: shite
 SOEF: sofa
 TEL/HREU: telly
 THREL: telly
@@ -200,4 +206,5 @@ TEFBG/SKWRO: Tesco
 TES/KOE: Tesco
 TES/KOES: "Tesco's"
 TEUT/PWEUT: titbit
+AOUPB: uni
 ```

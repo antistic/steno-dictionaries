@@ -188,62 +188,72 @@ ST*S: status # ST*TS
 ### Dropped syllables
 
 ```yaml
-PWOUPBT: bounty # PWOEUPBT: buoyant
-SKWREUT: legit # HREPBLGT
-H*UR: hurry # HUR/KWREU
 SKWREPBD: agenda # A/SKWREPBD/TKA
+TP*EURBL: artificial # TPHR*EURBL
 SUPLGS: assumption # SUPGS, A/SUPLGS
+STROPB/PHER: astronomer # A/STROPB/PHER
 THRAOET: athlete # overwrites throat (use THROET)
 TROS/TEU: atrocity # A/TROS/TEU
 TAFPLT: attachment # TAPLT, A/TAFPLT
+A*UT/TEUFT: authenticity # A*UT/*EPB/TEUFT
 AUT/PHEU: autonomy
 A*F/KAD: avocado
 AF/KAD: avocado
 AZ/PWAOEU/SKWRAPB: Azerbaijan # no ER
+PWOUPBT: bounty # PWOEUPBT: buoyant
+KWEPBGS/HREU: conventionally
 TKEUPBLG: digital # TK*EUL, TKEUPBLG/TAL
+EL/SAFL/TKOR: El Salvador # EL/SAL/TKOR
 PHA*EUL: email # mail + *
 THAOUS: enthuse # overwrites 'use it' (use TAOUS). makes consistent with THAOUS/KWRAFT: enthusiast. SPWAOUZ
+H*UR: hurry # HUR/KWREU
 TPO: info # fo. overwrites "to", a misstroke
 SRAOEUT: invite # overwrites vit (use SR*EUT)
+SKWREUT: legit # HREPBLGT
 HR*ET/SKWREU: lethargy
+PHAPB/TP*EFT: manifesto # PHAPB/TPEFT: manifest
 PHOTS/REL: mozzarella
 PWHRAOEUPBLGD: obliged
 HREUFRP/KWRAPB: Olympian # like HREUFRP/EUBG: Olympic.
 TPOPB/TEUBG: phonetic # TPOEPB/TEUBG, TPOPB/ET/EUBG
 PHREUT/SA*EUGS: politicization
 PHREUT/SAEUGS: politicization
+PREF/HRAPBS: prevalence # misstroke
+PREF/HREPBS: prevalence # pref lens. PREFLS
 KWA*RPBT: quarantine # KWARPBT: quadrant
 SKRAO*EUB: subscribe
-TP*EURBL: artificial # TPHR*EURBL
 ```
 
 ### Compacted (still steno order)
 
 ```yaml
-ELG/-BLT: eligiblity # like ELG/-BL: eligible
-RARLS: regardless # RARLD
-AFPL: actual
-TPHROFL: philosophical
-KPEBL: accessible # like KPES: access
-KURPBS: currency
-SPRUPL: spectrum # SPREPL
-AOEPLT: emit
-KO*ERGS: coercion # overwrites categories (use KOERGS)
-PROUPB: pronoun # PRO/TPHOUPB
-SPREURBL: superficial
-TKHRAOEUPB: deadline # overwrites midline (use PHRAOEUPB)
-EUPL/PAOUPBT: impunity # EUPL/PAOUPB/TEU
-KPARPB: comparison
-KREUFPLS: Christmas
 PWAOUFS: abusive
+KPEBL: accessible # like KPES: access
+AFPL: actual
+AERL: aerial # AEURL: arial
+A/TROFT: atrocity # A/TROS/TEU
+A*UFPL: autism # AUFPL: awesome
 PWHOELD: behold
 PWHOLD: behold
+KREUFPLS: Christmas
 KHROERB: closure # KHRO*ERS
+KO*ERGS: coercion # overwrites categories (use KOERGS)
+KPARPB: comparison
 KHRAO*UD: conclude # KHRUD: included, KHRAOUD: collude
+KWAEU: convey
+KWAE: convey # like SWAE: survey
 KAO*P: co-op
+KURPBS: currency
+TKHRAOEUPB: deadline # overwrites midline (use PHRAOEUPB)
 TK*EBT: debit
+TKPHOPBS/PWHREU: demonstrably
+STKERPB: discern
 STKPARPBLG: disparage
 TKWALT: duality # TKAOULT
+ELG/-BLT: eligiblity # like ELG/-BL: eligible
+EPL/PWEFL: embezzle # embevel
+AOEPLT: emit
+KPHAEUPBG: exchange # overwrites change (use KHAEUPBG)
 KPO*EPBT: exponent
 SPOEPBT: exponent
 TPAFL: facile
@@ -252,14 +262,31 @@ TPAERL: farewell
 TPAERL: farewell
 TPAOEFBL: feasible
 TP*EUFG: fixing # like PH*EUFG: mixing
+EUPL/PAOUPBT: impunity # EUPL/PAOUPB/TEU
+EUPB/KAPB/TKEFPBT: incandescent
+KEPB/KWRAPB: Kenyan # KEPB/KWRA/*PB
+HRORPL: lorem ipsum # HROR/EPL/EUP/SUPL
+PHO*ELD: modal # overwrites model (use PHOELD)
 PHRAL: morale # overwrites moral (use PHORL). PHO*ERL
+OE/PWHREUFPB: oblivion
+PWHREUFS: oblivious
 PERPBLG: percentage # there's PWERPBLG, which might be a misstroke
 PRO*L: petrol
+TPHROFL: philosophical
 PRERBT: prescient
+PROUPB: pronoun # PRO/TPHOUPB
+RARLS: regardless # RARLD
 RE/PREFS: repressive
 SPREURT: separator
+SEFRPBT: servant
+SHROEFT: slowest
+STPHARBT: snapshot # STPHAP/SHOT
+SPRUPL: spectrum # SPREPL
 SPEUFRPB: spinach # spinch
 SPHEUFS: submissive
+SPWORPBT: subordinate
+SAUB/STARBT: substantiate
+SPREURBL: superficial
 THAERPT: therapist # therapy + T. TH*EUFT, THA*EURPS
 TPHULT: tumult
 TUPLT: tumult
@@ -271,6 +298,20 @@ WAOEUFT: wisest
 #### Ending -G, -S, -D, -Z
 
 ```yaml
+TK*EUT/*ERS: dithers
+PUGD: pudding # pugged
+EBGS/TEPB/WAEUGT: extenuating
+ES/KHRAEUGT: escalating
+RE/TAEUPBD: retained
+OP/RAEUTS: operates
+TKEUPL/PHATS: diplomats # dim mats
+PAOEPBL/AOEUFG: penalizing
+AOEU/KOPBS: icons # eye cons. AOEU/KOPB: icon
+EURBGZ: irks # overwrites {^-I} (non-Plover)
+PWAOE/KOPBS: beacons # bee cons. PWAOE/KOPB: beacon
+TKEUZ/TREGS: distressing
+TKEUS/TREGS: distressing
+SAOEUD/HRAOEUPBD: sidelined # SAOEUD/HRAOEUPB: sideline
 KPEFD: accessed
 KOEFRD: coerced # overwrites coffered (use KOEFR/-D)
 TKPWRAEZ: agrees # like TKPWRAE: agree. overwrites grease (use TKPWRAOES)
@@ -324,62 +365,100 @@ SKHRAOUTD: secluded
 #### Tuck in HR for -ly
 
 ```yaml
-HRAFPL: actually # like AFPL: actual
 STKHREPBL: accidentally
-TPHROL: normally
+HRAFPL: actually # like AFPL: actual
+HRALGS: additionally
 SHRERBL: essentially
 HREFPBL: eventually
+TPHR-PBL: financially
 TKPWROELS: grossly
 TPHAD/SRERLT: inadvertently
 STPHAPBLT: instantly # the version without -T exists
+TPHROL: normally
+KWHRAEULGS: occasionally
+KWHRAEUGS: occasionally # KWAEULGS: occasional
 HROPGS: optionally
+HROPLGS: optionally # OPGS: option (OPLGS: optional defined here)
 HRORPBLG: originally
 THREURD: thirdly
 HRUPLT: ultimately
-HROPLGS: optionally # OPGS: option (OPLGS: optional defined here)
 ```
 
 #### Tuck in -L for -ly
 
 ```yaml
-SOUPBLD: soundly
-HAEPL: happily
-KHRAB/TEUFL: collaboratively # KHRAB/TEUF: collaborative
 AURBLGD: awkwardly
 AURBLG: awkwardly # without D is more comfortable
+PWHRUPBLT: bluntly
+KHRAB/TEUFL: collaboratively # KHRAB/TEUF: collaborative
+STKPRALT: desperately
+TPEUFRLT: firstly
+TP*EURLS: firstly
+HAEPL: happily
+HROULD: loudly
 PHAEUFPL: maturely
+TPHAOEULT: nightly
+PRAOEUFLT: privately
 RE/PAOELTD: repeatedly
 SPREULT: separately
+SWAOERL: severely
+SOUPBLD: soundly
+SPHREFBG: specifically
+STELD: steadily
 SKEUPBLGT: succinctly
 SKEUPBLG: succinctly # without T is more comfortable
 SPRAOEULG: surprisingly
+SPRAOEUFLG: surprisingly # SPRAOEULG also exists
 THEURLD: thirdly
-PRAOEUFLT: privately
 WAOERLD: weirdly
+```
+
+#### Tuck in -L for -le
+
+```yaml
+KALT: cattle
+KRAEULD: cradle
+K*ULD: cuddle
+TPRAFL: frazzle
+TPHAOLD: noodle
+REF/KABL: revocable
+STA*RLT: startle
+TA*LT: tattle
+THROLT: throttle
 ```
 
 #### Tuck in -R for -er, -or
 
 ```yaml
+A/KAOUPL/HRAEURT: accumulator
+A/KAOUPL/HRAEURT: accumulator # A/KAOUPL/HRAEUT: accumulate
+A/SRERPBG: avenger
 KHRURT: clutter
+KHRAB/RAEURT: collaborator # collab rarity. KHRAB/RAEUT: collaborate
 KRURBGT: constructor
-STAERT: starter
-HRAORS: looser
-SKWRAOURPB: junior
+KAUPB/SAOURPL: consumer # KAOURPL
 TA*EURPB: container  # * because ^itarian
+KAORBG: cooker
+SKWRAOURPB: junior
+HRAURPBD: launder
+HRAORS: looser
+PHURT: mutter
 OE/PREFR: oppressor # OE/PRES/O*R
 OE/PREFRS: oppressors
-STRAOERPL: streamer
 PAEUPB/KEURL: painkiller # PAEUPB/KEURLS: painkillers
-A/SRERPBG: avenger
-A/KAOUPL/HRAEURT: accumulator
+PRAOUFR: previewer
+STAERT: starter
+STRAOERPL: streamer
+SWARG: swagger
 ```
 
 #### Tuck in E for -y
 
 ```yaml
+KAERBL: casually
 HOEB: hobby
 OERPBLG: originally
+PAERBL: partially # overwrites partial (use PARBL)
 ```
 
 #### F for S
@@ -391,31 +470,34 @@ KHROEFL: closely
 #### Other
 
 ```yaml
-KRERPBT: century # overwrites center (use STR)
-KAEF: cafe
-TPRAFL: frazzle
-HORP: hopper # overwrites who were (use WHORP)
-PRE/KAEURT: precarity # PRE/KAEUR/TEU
-THROLT: throttle
-TKWAOEUFS: divisive
 TPAEURPLGS: affirmation # fold in A-
 TPAEURPL: affirm # overwrites fairly (use TPAEURL)
 TAEPLT: attempt
 TAEFRPT: attempt # fold in A-
 TAEPLT: attempt # fold in A-
+KAEF: cafe
+KRERPBT: century # overwrites center (use STR)
 KHRAEUFR: clarify # KHRAEUR/TPEU
 SKAOEL: conceal
+KAUPB/SPEURT: conspirator # conspirit
+SKRAEUPB: constrain
 SKRUBGT: construct # KRUBGT
 TKEURBGS: dictionary # overwrites dirks (use TKEURBGZ)
+TKWAOEUFS: divisive
 SPHROEURT: exploiter
 TPAOEFRL: fearful # TPAOER/-FL
+TPORLT: formality
 TKPWRAEUFLT: grateful # TKPWRA*EUFL
+HORP: hopper # overwrites who were (use WHORP)
 HO*ELT: hotel
 HOELT: hotel
+KWAEULGS: occasional # overwrites occasionally (use KWHRAEUGS or KWHRAEULGS)
 OPLGS: optional # OPGS: option
+PRE/KAEURT: precarity # PRE/KAEUR/TEU
 RAELTS: realities # like RAEL: real
 RAELT: reality # like RAEL: real
 SABG/TPAOEUFD: sacrificed # overwrites 'sack fived'. SARBG/TPAOEUFD
+SKWEFRT: sequester
 SKEPLT: skeptical # squishing SKEPT/K-L. SKEPT: concept
 SPRAOEUGS: surprising # SPRAOEUS: surprise + G (without final -S exists)
 SRAOEPBG: vegan
@@ -427,12 +509,21 @@ Nearly works but the spelling is wrong.
 
 ```yaml
 A/KUFPL: accustom # A/KUFPLD: accustomed exists
-KWR-D/HROG: idealogue
-KWR-D/OLG: ideology
 KPHRO*EUT/TEUF: exploitative
 KPHROEUT/TEUF: exploitative
 SPHROEUT/TEUF: exploitative
+KWR-D/HROG: idealogue
+KWR-D/OLG: ideology
 PHAR/KWROPB/AO*ET: marionnette
+PET/HR*EPBT: petulent # pettulent
+RE/KOFR/KWREU: recovery # recoverry. ROFR/KWREU
+UPB/SERPB/TEU: uncertainty
+```
+
+### Boundary errors
+
+```yaml
+PWAEUS/SAL/REU: base salary # basalry
 ```
 
 ### Different emphasis
@@ -454,13 +545,18 @@ A/SETS: assets
 A/TEUBG: attic # AT/TEUBG
 A/SRAPBT/TKPWARD: avant-garde
 PWREUT/A*PB: Britain # PWREU/TAPB
+KAUPB/SPEURT/O*R: conspirator # KAUPB/SPEUR/TOR
+TKPHOPBS/STRA/PWHREU: demonstrably # TKEPL/STRAB/HREU
 TKEUS/APL/PWEUG/WA*EUT: disambiguate
 TKEUS/APL/PWEUG/WAEUT: disambiguate
 TKEUZ/AEUPL/PWEUG/WA*EUT: disambiguate
 PHORT/*EUGS: mortician # PHOR/TEUGS
 TPHEG/AEUGS: negation # TPHE/TKPWAEUGS
+OBGT/A*L: octal # also OBG/TAL
 HREUFRP/EUBG: Olympic # overwrites limpic. HREUPL/PEUBG
 PE/REUL: peril # PER/EUL
+REUBG/TEU: rickety # REUBGT/KWREU
+SKED/HREUPBG: scheduling # SKED/-G
 SPEBG/TAEURT: spectator # from SPEBG/TAEUT. like SPEBGT/AEURT
 STOEUPB/TKPWRAEF: stenography # STPHOG/TPEU
 SRULT/AOUR: vulture
@@ -470,25 +566,62 @@ SRULT/AOUR: vulture
 
 ```yaml
 TKPHEUPB/STRAF: administrative # TKPHEUPB/STREUF
+AFRP/TPAOEU: amplify # AFRP/TPEU
+APBGS/TEU: angsty # APBGS/KWREU
 A/ROE/PHA/THAERP: aromatherapy # prefer THAERP for therapy
+ATS/TPAOERBG: atmospheric # ATS/STPAOERBG
+ATS/TPERBG: atmospheric # ATS/STPAOERBG
+AUPL/TEUBG: automatic # AUPL/EUBG
+PWA/ROPB: baron # PWAR/ROPB
 KHRARS/SA: Clarissa # KHRARS/KWRA
 KAU/HREUGS: coalition # KOE/HREUGS
+KAU/HERPBS: coherence # KO/HERPBS
 KAU/HERPBT: coherent # KO/HERPBT, KAU/HAOERPBT
+TKE/SAO*EFD: deceived # overwrites dereceived, TKE/SAOEFD: deceased, also TKAOE/SAOEFD and STKAOEFD
+TKEUZ/POEUPBTD: disappointed
+TKEUZ/PWURS: disburse
+TKEUZ/SERPB: discern # overwrites discertain
+TKEUZ/PHREUPB: discipline
+TKEUZ/KRAOET: discreet
+TKEUZ/KRAET: discrete
+TKEUZ/KREGS/REU: discretionary
+TKEUZ/TKEUFL: dismissal # TKEUS/PHEUFL
+TKEUZ/PARPBLG: disparage
+TKEUZ/PARPBLG/-G: disparaging
+TKEUZ/PRAT: disparate
+TKEUZ/PEPBS: dispense
+TKEUZ/RUPT: disrupt
+TKEUZ/RUPGS: disruption
+TKEUZ/PAEUT: dissipate
+TKEUZ/PAEUTD: dissipated
+TKEUZ/TEUPBGT: distinct
+TKEUZ/TRAUT: distraught
+TKEUZ/TURBD: disturbed
 THAOUS/ST-BG: enthusiastic # makes consistent with THAOUS/KWRAFT: enthusiast
+HER/TEUPBLG: heritage # her to the best of my knowledge. HER/TAPBLG
 HUBG/*L/PWER/REU: huckleberry # REU instead of KWREU
+PH*ERT/PHREUS: metropolis # like PH*ERT: metro^. PHERT/PHREUS: metropolis
+PH*ERT/POL: metropolitan # like PH*ERT: metro^. PHERT/POL: metropolitan
+PH*ERT/POL/TAPB: metropolitan # like PH*ERT: metro^. PHERT/POL/TAPB
+PHEUZ/KRAOEPBT: miscreant # PHEUS/KRAOEPBT
+PHEUZ/KRAPBT: miscreant # PHEUS/KRAPBT
+PHEUZ/HAPS: mishaps
 PHUPB/TREU: monetary # PHUPB: money. PHOPB/TREU
 PHUPB/KAE: monkey # phonetic. PHOPB/KAE
 AUR/TKPWAPL/SKWREU: origami # ^i instead of PHEU. AUR/TKPWAPL/PHEU
 AUR/THO: ortho
 AUR/THOE: ortho # ORT/THO
 SPHO*EUD: social media # SPHAO*ED. Make it more like PHO*EUD: media
+STAOUD/KWRO*E: studio # STAOUD/KWROE. KWRO*E: ^io
 SPR/TPEURBL: superficial # superofficial. SAOUP/TPEURBL
 SPR/STEUGS: superstition # SAOUP/STEUGS
 S-PL/ABG: systematic # system ack. Like PRO*B/ABG: problematic
+TEFRP/KHAOUR: temperature # TEFRP/TAOUR and TEFRP/KHUR exist
 TERPB/REU: ternary # TERPB/AER
 TRAPBZ/SEPBD: transcend # TRA*PBS/SEPBD, TRAPBZ/EPBD
 TRAPBZ/PAEURPBS: transparency # like TRAPBS/PAEURPBT
 TRAPBZ/PARPBS: transparency # like TRAPBZ/PAEURPBS
+AUPLD: upload # UPLD. like AUP: up^, AUPTD: update
 SRAFRP/AOEUR: vampire # SRA*PL/AOEUR
 SROL/KA*PBG: volcanic # SROL/KAPBG
 WAUL/PAEURP: wallpaper # WAUL/PAEUP
@@ -503,10 +636,13 @@ PHAOUFP: mature # PHAEUFP. Like PHAOURT: maturity
 ### Accidentally adding a prefix to a brief.
 
 ```yaml
+ABG/TKPHEUBG: academic
 AD/HAO*EFS: adhesive
 AL/TKPWR*EUFPL: algorithm
 A/PHAEUFPLT: amazement
 A/R*EUT/PHET/EUBG: arithmetic
+TKE/STROEUR: destroyer
+AOE/HREUPL/TPHAEUGT: eliminating
 AOE/TPHABGT: enact
 EUPB/TWAOUF: intuitive
 ```
@@ -554,33 +690,39 @@ HRUPLT: ultimately
 ### Alternative by pronunciation
 
 ```yaml
+HAEUFPD: ADHD # HA*ED
 AOEU/SHA: Aisha # AOEU/AOERB/SHA
 AOEURB/SHA: Aisha # AOEURB/SHA
 A/RAOEU: awry
 A/REU: awry
+PWE/SERBG: berserk
 KERB: curb
 TKUFPB: dozen # TKOZ, TKOFPB
 KPEFRP/TPAOEUD: exemplified # KPEFRP/TPEUD
 KPEFRP/TPAOEU: exemplify # KPEFRP/TPEU
+EBGS/TERBL: existential # EBGS/TEPBL
 SKWREPB/WEUPBL: genuinely # SKWREPB/WAOEUPBL
 TKPWOL: goal # TKPWAOL
 AOEUS/KWROE: "{iso^}" # AOEUS/KWRO
 KAOEU/PWORB: kibosh # KEUB/ORB
 SKWREUT/PHAEUT: legitimate # verb version. SKWREUT/PHAT
 PHAR/KWROPB/ET: marionnette
+TPHAO*EUF: naive # TPHAOEF, TPHAOEU/AOEF
 PRAED: parade # PRAD: parade, PRAEUD: prayed
+SHED/HREUPBG: scheduling # shedling
 SULT: subtle # SUBLT
 SULT/HREU: subtly
+S*EPB/*EUT: zenith # SAO*EPB/*EUT
 ```
 
 ### Star
 
-No star version.
+#### No star version.
 
 ```yaml
 TPHEUFT: antagonist
+PWAOELT: beetle
 SKAEUD: cascade
-KALT: cattle
 KRUF: constructive
 TP-RB: efficiency
 TERPBL: eternal
@@ -591,20 +733,24 @@ TPRAZ/-L/-D: frazzled
 TPRAZ/-LD: frazzled
 TPRAZ/-L: frazzled
 SKWRERPB: German
+HUPB: hun # overwrites hundred (use HUPBD)
 HRERB: leisure
+TPHAOELT: neatly
 -PBT: "{^n't}" # overwrites ' (use symbols/AE)
 OURSZ: ourselves
+PEFR: perf
 SPOF: responsive
-REF/KABL: revocable
 ```
 
-With star versions.
+#### With star versions.
 
 ```yaml
 HR*RD: already
+TKA*FL: dazzle
 HR*EFPBT: eleventh # HREFPBT
-PEUBGS/*EL: pixel # PEUBGS/EL
 HAFRP/*ER: hamper
+HED/KWART/*ER: headquarter # HED/KWART/ER
+PEUBGS/*EL: pixel # PEUBGS/EL
 ```
 
 ### Swaps/shuffles
@@ -617,30 +763,32 @@ A*EPLS: apples # overwrites amps (use AFRPS)
 KHRAEURT: calculator # overwrites clarity (use KHRAERT), fold in E
 KHRAERT: clarity # overwrites calculator (use KHRAEURT), like KHRAEUT: calculate
 KHRAO*UD: collude
-KHRAOUD: conclude
 KHRAO*UGS: collusion
+KHRAOUD: conclude
 KHRAOUGS: conclusion
 KEFRBT: conservative
 KEFRB: conserve # overwrites conservative
 KRAO*EBG: critique # overwrites pancreatic. like TAO*EBG: technique
-KRA*EBG: pancreatic
 SKWRERPBLT: generality # follows SKWRERPBL: general
 SKWRERPBL: general # overwrites generally (use SKWHRERPBL). I didn't like how -R made it -ly
 SKWREPBLT: gentle # without * since general was moved
-SPWROUBGS: introduction # TROUBGS. overwrites obstruction
+HERD: herd # overwrites heard (use HAERD)
 STPHEUFT: insist # overwrites "snift" (use STPHEUFT/STPHEUFT)
-STPHEUFT/STPHEUFT: snift
+SPWROUBGS: introduction # TROUBGS. overwrites obstruction
 HRA*S: last # overwrites las (use HRAZ)
 HREURLT/-S: literals # overwrites liters (use HRAOERTS)
 PHOELD: model
 PHOLD: mold
+OEU: oi # overwrites / (use symbols dictionary)
 OBGS: ox # overwrites objection (use OPBLGS)
+KRA*EBG: pancreatic
 REF: ref
 R*EF: rev
 S*EFL: {^self}
 SEFL: self
 SPREUTS: separates # overwrites spritz (use SPREUTZ, defined here)
 STPHEUFL: sniffle # swap sniffle and snivel so that *F: V, -F: F
+STPHEUFT/STPHEUFT: snift
 STPH*EUFL: snivel # swap sniffle and snivel so that *F: V, -F: F-8
 SPREUTZ: spritz
 SAOURP: super # overwrites supper (use SURP)
@@ -657,7 +805,10 @@ KWRUP: yup # overwrites up^, use AUP
 With and without spaces
 
 ```yaml
+PWEURT/SWAOET: bittersweet # PWEUT/*ER/SWAOET: bittersweet
+PWHROBG/KHA*EUPB: blockchain
 STOER/TERL: storyteller # story teller. STOER/TEL/*ER exists. STOER/TELG: storytelling is also closed
+TAOEUPL/STA*FRP: timestamp # with asterisk to keep TAOEUPL/STAFRP: time stamp
 ```
 
 ### Different punctuation
@@ -675,6 +826,7 @@ SAOEUPB/SKWRUP: signup # overwrites sign-up (use SAOEUPB/SKWR*UP)
 ### Different capitalisation
 
 ```yaml
+TORL: editorial # overwrites Editorial
 HRAPBG: lang # overwrites Lang
 ```
 
@@ -683,12 +835,16 @@ HRAPBG: lang # overwrites Lang
 Overwrites without having an entry for what was there before.
 
 ```yaml
-TAEUPBD: contained # overwrites tained, which probably isn't a word?
+TAEUPBD: contained # overwrites tained, which probably isn't a word? #400
+PHA/SKWROPBG: mahjong # mah jongg. Different spelling. Merriam Webster says mah-jongg, but Wikipedia says mahjong, which is also the spelling I'm more familiar with
+PHEFRPB/TKAOEUZ: merchandise # merchandis (possible typo? #400)
 ```
 
 #### Undo misstrokes
 
 ```yaml
+PWAR/TKPWAPB/-G: bargaining # bagaaining (#400)
+STRAORD/HREU: straightforwardly # extraordinarily (use KPRAORD/HREU)
 TOED/AS: today as # today's (use TOED/AES)
 HU/U: uh you # huh-uh (use H*U/H-B/HU)
 ```
@@ -723,6 +879,7 @@ PH*EUD: "{mid^}" # exists
 ```yaml
 TKPWAOEUS: guise
 TKPWAOEUZ: guys
+PAUZ: paws # overwrites pause (use PAUS)
 ```
 
 ### KP\* for ex- (and KP if it is free)
@@ -814,10 +971,25 @@ TROEUT: treaty
 ### -FR for -M
 
 ```yaml
+TPHAFRL: animal
 A/SUFRPGS: assumption
 SUFRPGS: assumption
+PWUFRBL: bumble
 KAFRL: camel
+KOFRP/SEUT: composite # comp sit
+TKAOEU/TPHAFRBG: dynamic
+EFRP/SAOEUFD: emphasized
+EFRP/TEUBG: emphatic
+EFRP/KHREU: emphatically
+EPB/SEFRBL: ensemble
+EPB/SOFRBL: ensemble
+TKPWAFRBL: gamble
+TKPWRUFRBL: grumble
+SKWRUFRBL: jumble
 TPHEUFRBL: nimble
+RAFRBL: ramble
+RE/SEFRBL: resemble
+SKRAFRBL: scramble
 STUFRBL: stumble
 TREFRBL: tremble
 TRAOEUFRP: triumph
@@ -883,6 +1055,7 @@ TPH-RBT: inefficient # TPH: in + TP-RBT: efficient
 SPWEGT: integrity
 SPWERPBLT: internment
 EUPBT/PRERT: interpreter # EUPBT/PRET/*ER
+KAO*EUF: kinda # like KAOEUF: kind of
 HRAPT: laptop
 HR-PBLG: logic # L-J
 PHAOULT: mutual
@@ -1028,6 +1201,7 @@ SHAPB/TEL: Chantelle
 TKAO*EU/TKAO*EU: Di # overwrites di. TKAOEU: die, TKAO*EU: dye, TKEU: did I, TK*EU: di^
 TKPWERG/KWROE: Gergo
 TKPWERG/KWRO: Gergo
+EUPL/SKWREPB: Imogen
 KA/REPB: Karen # overwrites "karen"
 KEP/HRER: Kepler
 KW-PLG: qmk
@@ -1087,8 +1261,10 @@ A/KUFRD: accursed
 AO*ET/*ER: aether
 AG/TPHOE/TOLG: agnotology
 A/HA/HA: ahaha
+PWAP: bap
 PWAFL/EUFBG: basilisk # overwrites baffliffic
 PWA/SEUL/EUFBG: basilisk # overwrites basiliffic (if using british_english.md)
+PWEU/PWEUPL/PWAP: bibimbap
 PWOE/PWA: boba
 KAR/SER/A*L: carceral
 KAR/SERL: carceral
@@ -1101,6 +1277,7 @@ S*EUS: cis # overwrites cyst (use KREUFT)
 KHROEZ: cloze # overwrites close (use KHROES)
 KAUPB/TEPL: contemn
 KROEPB/SRAOEURS: coronavirus
+KOS/PHRAEU: cosplay
 KO*EFD: covid
 KOEFD: covid
 KR*UFT: cruft # KRUFT: crust
@@ -1111,11 +1288,14 @@ AOED: Eid # overwrites he'd (use HAOED)
 AOEU/TKPWEPB: eigen
 EFBL: evitable # TPHEFBL: inevitable
 EBGS/EUF: EXIF
+TPARB: fash
+TPAOEF/TKOPL: fiefdom
 TKPWRA*EFZ: greaves # overwrites Gram negatives. AE since conflict with grieves
 HA/REUS/SA: harissa
 HA/REUS/SKWRA: harissa
 HARS/SA: harissa
 HARS/SKWRA: harissa
+EUPB/EF/-BLT: ineffability # like EUPB/EF/-BL: ineffable
 EUPBS/TA: insta
 EUPBT/KWRO/SEPGS: interoception
 EUPBT/SKWRO/SEPGS: interoception
@@ -1125,17 +1305,22 @@ SKWRAEPBG: janky
 SKWRA*PBG/KWREU: janky
 SKWRAPB/KEU: janky
 SKWRAOU/SREU: juvie
+KE/PWAB: kebab # KA/PWOB: kabob
 KAO*EF: kiev # KAOE/*EF: Kiev
 PHAOEFPB: meson
 TP*EPB/STOEUPB: phenrsteno
 TPERPB/STOEUPB: phenrsteno
 S*EBGS/ED: sex ed
+S*EUPL: sim
 SPHOL: smol
+SPR*EUT: SPRiT
 S-FD: ssd
 STAPB: stan # overwrites Stan (use STA*PB)
+STOEUPB/TPH*EUPL: stenonym # overwrites steno nipple
 TA/TKA*: tada
 THOT: thot
 TO*T: tot # overwrites to the (use TOT)
+TREFL: trestle
 AO*UPB: uni
 SRABGS: vax
 SRABGS/-D: vaxxed
